@@ -1,0 +1,197 @@
+ISDS_Tag_05_Sicherheit
+
+
+•01 Exploits
+•02 Rootkits
+•03 Brute Force
+•04 DoS, DDoS, DDoS–Reflektion
+•05 Replay Attacken
+•06 TCP/IP Hijacking
+•07 Tools
+•08 IT Sicherheitsbeauftragter
+•01 istismar
+•02 Rootkit'ler
+•03 Kaba Kuvvet
+•04 DoS, DDoS, DDoS yansıması
+•05 tekrar saldırıları
+•06 TCP/IP ele geçirme
+•07 araçlar
+•08 BT Güvenlik Görevlisi
+
+01 Exploits
+•Als Exploit bezeichnet man eine Methode oder einen Programmcode, mit dem über eine Schwachstelle in Hard-oder Software-Komponenten nicht vorgesehene Befehle oder Funktionen ausgeführt werden können. 
+•Je nach Art der Schwachstelle kann mithilfe eines Exploitsz. B. ein Programm zum Absturz gebracht, Benutzerrechte ausgeweitet oder beliebiger Programmcode ausgeführt werden. 
+01 istismar
+• Açıktan yararlanma, donanım veya yazılım bileşenlerindeki bir güvenlik açığı aracılığıyla istenmeyen komutları veya işlevleri yürütmek için kullanılabilecek bir yöntem veya program kodudur.
+• Güvenlik açığının türüne bağlı olarak, bir exploitz. Örneğin, bir program çöküyor, kullanıcı hakları genişletiliyor veya rastgele program kodu çalıştırılıyor.
+
+Exploit-Kit
+•Exploit-Kits oder Exploit-Packs sind Werkzeuge für Cyber-Angriffe und werden auf legitimen Webseiten platziert. 
+•Mithilfe verschiedener Exploits wird automatisiert versucht, eine Schwachstelle im Webbrowser oder dessen Plug-ins zu finden und zur Installation von Schadprogrammen zu verwenden. 
+istismar kiti
+•Sömürü kitleri veya istismar paketleri, siber saldırı araçlarıdır ve meşru web sitelerine yerleştirilir.
+• Çeşitli istismarların yardımıyla, web tarayıcısında veya eklentilerinde bir güvenlik açığı bulmak ve onu kötü amaçlı yazılım yüklemek için kullanmak için otomatik bir girişimde bulunulur.
+
+02 Rootkits
+•Wie bereits bei den Exploits vernommen, sehen wir den Begriff „Kits“ als Bezeichnung für eine Sammlung von Softwarewerkzeugen
+•Als „Root“ wird die Rechteebene der Administratorrechte bezeichnet
+•Nach dem Einbruch in einen System, dienen diese Werkzeuge im wesentlichen dazu im Verborgenen agieren zu können
+•Belauschen, Ausspionieren, Datendiebstall, Installationen vornehmen, Hintertüren einbauen, umfangreichere Angriffsszenarien vorbereiten
+02 Rootkit'ler
+• Açıklardan yararlanma konusunda daha önce duyduğumuz gibi, "kitler" terimini bir dizi yazılım aracı için bir tanım olarak görüyoruz.
+•Yönetici haklarının hak düzeyine "kök" adı verilir.
+• Bir sisteme girdikten sonra, bu araçlar esasen gizlice hareket edebilmeye hizmet eder.
+• Gizli dinleme, casusluk, veri çalma, kurulum yapma, arka kapılar kurma, kapsamlı saldırı senaryoları hazırlama
+
+Einige Beispiele
+•Application Rootkits
+•Kernel Rootkits
+•UserlandRootkits
+•Speicher Rootkits
+•Virtualisierungs Rootkits
+Bazı örnekler
+•Uygulama kök setleri
+• Çekirdek kök kitleri
+• Kullanıcı alanı rootkit'leri
+• Bellek Rootkit'leri
+• Sanallaştırma kök setleri
+03 Brute Force
+Kein direktes Ziel definiert, Maximalprinzip: definierter Einsatz mit größtmöglicher Wirkung
+•Bei einem Brute-Force-Angriff handelt es sich um den Versuch, z.B. Zugangsdaten wie Benutzernamen und Passwort zu knacken oder einen Schlüssel zu finden, mit dem Daten verschlüsselt worden.
+•Vereinfacht dargestellt, es wird versucht die Zugangsdaten oder Schlüssel zu erraten.
+•Auf Grund der vielen Möglichkeiten entwickeln Hacker Werkzeuge, die in der Lage sind viele Möglichkeiten innerhalb einer sehr kurzen Zeit abzufragen.
+03 kaba kuvvet
+Tanımlanmış doğrudan bir hedef yok, maksimum ilke: mümkün olan en büyük etkiyle tanımlanmış taahhüt
+•Kaba kuvvet saldırısı, örneğin kullanıcı adı ve parola gibi erişim verilerini kırma veya verileri şifrelemek için kullanılan bir anahtarı bulma girişimidir.
+•Basitleştirilmiş, erişim verisi veya anahtarı tahmin edilmeye çalışılır.
+• Çok sayıda olasılık nedeniyle, bilgisayar korsanları çok kısa sürede birçok olasılığı sorgulayabilen araçlar geliştirir.
+
+04 DoS, DDoS, DDoS-Reflection
+04 DoS, DDoS, DDoS yansıması
+
+•DoS-Denial of Service(„Verweigerung des Dienstes“)Hierbei handelt es sich um die Nichtverfügbarkeit eines Dienstes, für den in der Regel eine Überlastung des Datennetzes verantwortlich ist. Eine solche Überlastung kann unbeabsichtigt auftreten, oder durch einen gezielten Angriff herbeigeführt werden. Bei einem Angriff durch viele gezielte Anfragen, mit dem Ziel einen mutwilligen Dienstausfall herbeizuführen, bezeichnet man einen solchen Angriff als „Denial of Servive Attack“.
+•DoS-Hizmet Reddi(“hizmet reddi”)Bu, genellikle veri ağının aşırı yüklenmesinden sorumlu olan bir hizmetin mevcut olmamasıdır. Böyle bir aşırı yüklenme, istemeden meydana gelebilir veya hedefli bir saldırıdan kaynaklanabilir. Kasıtlı bir hizmet hatasına neden olmak amacıyla çok sayıda hedefli istek içeren bir saldırı olması durumunda, bu tür bir saldırı "hizmet reddi saldırısı" olarak adlandırılır.
+
+•DDoS-Distributed-Denial-of-ServiceWird ein solcher Angriff nicht von einem Angreifer ausgeführt, sondern von einer Vielzahl von Angreifern, bezeichnet man dieses als „Distributed-Denial-of-Service-Attack“. Da in diesem Fall die Angriffe von einer Vielzahl von Quellen ausgehen, ist es nicht möglich die entsprechenden Angreifer zu blockieren. Solche Angriffe haben in den vergangenen Jahren jedoch viel von ihrem Schrecken verloren. Nichts desto trotz, gegenüber unvorbereiteten und schutzlosen Opfern können nach wie vor erhebliche Schäden erzeugt werden.
+•Zunehmende Vernetzung von Geräten führt jedoch zu einer Art zweiten Frühling
+•DDoS Dağıtılmış Hizmet Reddi Böyle bir saldırı bir saldırgan tarafından değil de çok sayıda saldırgan tarafından gerçekleştirilirse, buna "Dağıtılmış Hizmet Reddi Saldırısı" denir. Bu durumda saldırılar çeşitli kaynaklardan geldiği için söz konusu saldırganların engellenmesi mümkün değildir. Ancak, bu tür saldırılar son yıllarda korkularını büyük ölçüde kaybetti. Bununla birlikte, hazırlıksız ve savunmasız kurbanlara hala önemli zararlar verilebilir.
+• Bununla birlikte, artan aygıt ağları, bir tür ikinci bahara yol açar.
+
+•DRDoS-Distributed-Reflected-Denial-of-ServiceBei dieser Angriffsvariante stellt der Angreifer Anfragen an reguläre Dienste und nicht direkt an das Ziel. Er versieht seine Anfrage jedoch mir einer anderen „Absenderadresse“, die des eigentlichen Ziels. Ein Beispiel dafür wäre eine „DNS Amplification Attacke“, bei der das Domain Name System als „Reflektor“ benutzt wird. Durch eine solche Vorgehensweise ist die Ermittlung der eigentlichen Quelle natürlich deutlich schwieriger.
+•DRDoS Dağıtılmış Yansıtılmış Hizmet Reddi Bu saldırı türünde, saldırgan doğrudan hedefe değil normal hizmetlere istek gönderir. Ancak, talebine asıl hedefin adresi olan farklı bir "gönderen adresi" sunar. Bunun bir örneği, alan adı sisteminin bir "yansıtıcı" olarak kullanıldığı bir "DNS yükseltme saldırısı" olabilir. Böyle bir yaklaşımla, gerçek kaynağı belirlemek elbette çok daha zordur.
+
+05 Replay Attacken
+05 Tekrar saldırıları
+
+•Ein Replay Angriff dient der Vortäuschung von Authentizität 
+•Vorangegangen ist in der Regel eine sogenannte „man in the middle“ Attacke
+•Beispiel: A und B kommunizieren und verifizieren ihre Identität, z.B. mit einer Hash Funktion. Beide Seiten vergleichen den Hash Code und entsprechende Berechnung. C belauscht den Vorgang und zeichnet den Prozess auf. C kommuniziert im Anschluss mit B, gibt sich für A aus und benutzt die Aufzeichnung zur Authentifizierung
+• Bir tekrar saldırısı gerçekmiş gibi davranmaya yarar
+• Bu genellikle "ortadaki adam" saldırısından önce gelir
+•Örnek: A ve B, örneğin bir karma işleviyle iletişim kurar ve kimliklerini doğrular. Her iki taraf da hash kodunu ve ilgili hesaplamayı karşılaştırır. C süreci gizlice dinler ve süreci kaydeder. C daha sonra B ile iletişim kurar, A'yı taklit eder ve kaydı kimlik doğrulama için kullanır.
+
+06 TCP/IP Hijacking
+06 TCP/IP ele geçirme
+
+•Auch bei dieser Angriffsform spielt das Ausspähen eine zentrale Bedeutung
+•Im Fokus liegen hier TCP Pakete
+•Ein Angreifer belauscht den Datenverkehr einer ausgewählten Verbindung und klinkt sich mit manipulierten Paketen in die Kommunikation ein
+•Hubs waren eine „freundliche“ Hardwareunterstützung für diese Angriffsform
+• İzcilik, bu saldırı biçiminde de merkezi bir rol oynar
+•Burada odak noktası TCP paketleridir
+•Bir saldırgan, seçilen bir bağlantının veri trafiğini gizlice dinler ve manipüle edilmiş paketlerle iletişime kilitlenir
+• Hub'lar, bu saldırı biçimi için "dostça" donanım desteğiydi
+
+07 Tools
+07 araçları
+
+Werkzeuge der Angreifer sind ebenso Werkzeuge der Abwehr
+Auch wenn viele Tools frei zugänglich sind, sie unautorisiert / unerlaubt außerhalb einer eigenen Testumgebung (Laborumgebung) zu nutzen ist eine STRAFTAT! ! !
+Grauzone für ITler§202c Abs. 2
+ Saldırganların araçları aynı zamanda savunma araçlarıdır
+Birçok araca ücretsiz olarak erişilebilse bile, bunları kendi test ortamınız (laboratuvar ortamı) dışında izinsiz kullanmak SUÇ'tur! ! !
+BT çalışanları için gri alan §202c paragraf 2
+
+https://www.gesetze-im-internet.de/stgb/__202c.html
+
+BruteForce Werkzeuge (Beispiele)
+BruteForce araçları (örnekler)
+•Gobuster
+•BruteX
+•Dirsearch
+•SSB
+•THC-Hydra
+•BurpSuite
+•Patator
+•Pydictor
+•Ncrack
+•Hashcat
+
+DDoSTools (Beispiele)
+•HOIC
+•LOIC
+•ByteDOS
+•PyLoris
+
+Weitere Tools (Beispiele)
+•Wireshark
+•Nmap
+•Aircrack-ng
+•OwaspZAP
+
+Tool Sammlungen (Beispiele)
+Araç koleksiyonları (örnekler)
+•Parrot
+•Kali Linux
+•Black Arch
+
+08 IT-Sicherheitsbeauftragter
+08 BT Güvenlik Görevlisi
+
+Aufgaben
+•In der Regel als Stabsstelle angelegt
+•Die Abstimmung der IT-Sicherheitsziele mit den Zielen der Institution, Behörde oder dem Unternehmen
+•Erstellung einer IT-Sicherheitsrichtlinie (Policies)
+•Aufbau, Betrieb und Weiterentwicklung der IT-Sicherheitsorganisation
+•Erstellung eines IT-Sicherheitskonzepts (ISMS) und dessen Anpassung an neue gesetzliche Gegebenheiten
+•Unterrichtung der Unternehmensleitung zum Status quo der IT-Sicherheit
+görevler
+• Genellikle bir personel pozisyonu olarak oluşturulur
+• BT güvenlik hedeflerinin kurum, otorite veya şirketin hedefleri ile koordinasyonu
+• Bir BT güvenlik kılavuzunun (politikaların) oluşturulması
+• BT güvenlik organizasyonunun yapısı, işleyişi ve daha da geliştirilmesi
+• Bir BT güvenlik konseptinin(BGYS) oluşturulması& yeni yasal koşullara uyarlanması
+• BT güvenliğinin mevcut durumu hakkında yönetimi bilgilendirmek
+
+•Sicherstellung des Informationsflusses für das IT-Sicherheitsmanagement
+•Dokumentation der IT-Sicherheitsmaßnahmen sowie Kontrolle dieser Maßnahmen
+•Durchführung von Schulungsmaßnahmen zum Thema IT-Sicherheit
+•Leitung der Analyse und Nachbearbeitung von IT-Sicherheitsvorfällen
+•Verwaltung der für die IT-Sicherheit zur Verfügung stehenden Ressourcen 
+•Der IT-Sicherheitsbeauftragte ist Ansprechpartner auf dem Gebiet der IT-Sicherheit für Kollegen, aber auch für externe Geschäftspartner und Kunden.
+• BT güvenlik yönetimi için bilgi akışının sağlanması
+• BT güvenlik önlemlerinin belgelenmesi ve bu önlemlerin kontrolü
+• BT güvenliği konusunda eğitim önlemlerinin uygulanması
+• BT güvenlik olaylarının analizinin ve sonradan işlenmesinin yönetimi
+• BT güvenliği için mevcut kaynakların yönetimi
+• BT güvenlik görevlisi, meslektaşların yanı sıra harici iş ortakları ve müşteriler için BT güvenliği alanındaki irtibat kişisidir.
+
+Gesetzliche Grundlage
+•Es gibt keine vergleichbare gesetzliche Regelung wie beim Datenschutzbeauftragten
+•Lediglich im Telekommunikationsgesetz wird im §109 Abs. 4 Satz 1 gefordert, dass Betreiber von öffentlichen oder öffentlich zugänglichen Telekommunikationsnetzen einen IT-Sicherheitsbeauftragten benennen müssen und dass ein Sicherheitskonzept erstellt wird
+•Zudem werden im IT-Sicherheitsgesetz 2.0 die Betreiber sogenannter „kritischer Infrastrukturen“ verpflichtet einen IT-Sicherheitsbeauftragten zu beschäftigen
+yasal dayanak
+•Veri koruma görevlisine ilişkin olarak karşılaştırılabilir bir yasal düzenleme bulunmamaktadır.
+•Yalnızca Telekomünikasyon Yasası, Bölüm 109, Paragraf 4, Cümle 1, kamuya açık veya herkesin erişebileceği telekomünikasyon ağlarının operatörlerinin bir BT güvenlik görevlisi atamasını ve bir güvenlik konseptinin oluşturulmasını gerektirir.
+• Ayrıca, BT Güvenlik Yasası 2.0, sözde "kritik altyapıların" operatörlerinin bir BT güvenlik görevlisi istihdam etmesini zorunlu kılmaktadır.
+
+IT-Sicherheitsgesetz 2.0
+•Seit dem 28.05.2021 in Kraft
+•Mehr Pflichten für Betreiber, mehr Befugnisse für den Staat
+•Die Rechtsverordnung für kritische Infrastrukturen, KRITIS-Verordnung 2.0, konkretisiert das IT-Sicherheitsgesetz und beschreibt die Schwellenwerte
+BT Güvenlik Yasası 2.0
+•28.05.2021'den beri yürürlükte
+• Operatörler için daha fazla yükümlülük, devlet için daha fazla yetki
+•Kritik altyapılar için yasal düzenleme, KRITIS düzenleme 2.0, BT güvenlik yasasını belirtir ve eşik değerlerini tanımlar
+
+
