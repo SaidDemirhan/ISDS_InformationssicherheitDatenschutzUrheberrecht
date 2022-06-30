@@ -1,0 +1,390 @@
+ISDS_Tag_06_Verschluesselung
+
+1.Verschlüsselung
+1.Grundlagen
+2.symmetrische Verschlüsselung
+3.asymmetrische Verschlüsselung
+4.weitere Verschlüsselungen
+5.Verschlüsselungsprotokolle und ihre Anwendung
+2.Signaturen
+1.Digitales Zertifikat
+2.Digitale Signatur
+3.Public Key Infrastructure
+1. Şifreleme
+1. Temel bilgiler
+2. simetrik şifreleme
+3. asimetrik şifreleme
+4. daha fazla şifreleme
+5. Şifreleme protokolleri ve uygulamaları
+2. İmzalar
+1. Dijital Sertifika
+2. Dijital İmza
+3. Genel Anahtar Altyapısı
+
+1 Verschlüsselung
+1.1 Grundlagen
+•Verschlüsselung nennt man den Vorgang, bei dem ein klar lesbarer Text mit Hilfe eines Verschlüsselungsverfahrens in einer „unleserliche“, das heißt nicht einfach interpretierbare Zeichenfolge umgewandelt wird.
+•Ziele
+•Vertraulichkeit
+•Integrität
+•Authentizität
+•Verbindlichkeit
+1 şifreleme
+1.1 Temel Bilgiler
+•Şifreleme, açıkça okunabilen bir metnin bir şifreleme işlemi yardımıyla "okunmaz", yani kolayca yorumlanamayan karakter dizisine dönüştürüldüğü işlemin adıdır.
+•Hedefler
+•Gizlilik
+•Bütünlük
+• Orijinallik
+• Sorumluluk
+
+•Verschlüsselungsalgorithmus
+•mathematische Funktion, der man den Klartext und einen Schlüssel übergibt 
+•Ausgabe ist ein Geheimtext, der keinen Rückschluss auf den Klartext erlaubt
+•nur mit Kenntnis des Schlüssels kann man mit der selben mathematischen Funktion den Geheimtext wieder in den Klartext umwandeln
+•Şifreleme algoritması
+• düz metin ve bir anahtar verilen matematiksel fonksiyon
+• Çıktı, düz metin hakkında herhangi bir sonuca varılmasına izin vermeyen bir şifreli metindir.
+•Yalnızca anahtarın bilgisi ile şifreli metin aynı matematiksel fonksiyonla tekrar düz metne dönüştürülebilir.
+
+•Verschlüsselungsverfahren
+•Algorithmus zum Verschlüsseln und Entschlüsseln, sowie Verfahren zum Schlüsselaustausch, Prüfung der Authentizität und Integrität
+•symmetrische, asymmetrische und hybride Verschlüsselungsverfahren 
+•hybriden Verschlüsselungsverfahren kombinieren symmetrische und asymmetrische Verschlüsselungsverfahren miteinander
+• Şifreleme yöntemi
+• Şifreleme ve şifre çözme algoritmasının yanı sıra anahtar değişimi, özgünlük ve bütünlüğün doğrulanması için prosedürler
+• simetrik, asimetrik ve hibrit şifreleme yöntemleri
+•Hibrit şifreleme yöntemleri, simetrik ve asimetrik şifreleme yöntemlerini birleştirir
+
+
+
+
+
+
+
+
+•Hashverfahren
+•ist eine Verschlüsselungsform, die nicht wieder rückgängig gemacht werden kann
+•dient häufig zum Vergleich einer gespeicherten, verschlüsselten Information mit einer aktuell eingegebenen, z. B. Kennwörter
+•das gespeicherte Kennwort wird als Hash-Wert hinterlegt, das bei der Anmeldung eingegebene Kennwort wird in den Hash-Wert verschlüsselt und beide Werte werden verglichen
+•wenn diese übereinstimmen, wurde die Eingabe als richtig angesehen
+• karma
+• geri alınamayan bir şifreleme şeklidir
+• genellikle saklanan, şifrelenmiş bilgileri halihazırda girilen bilgilerle karşılaştırmak için kullanılır, örn. B. Şifreler
+•Kaydedilen şifre hash değeri olarak saklanır, kayıt sırasında girilen şifre hash değerinde şifrelenir ve her iki değer karşılaştırılır.
+• bunlar eşleşirse, giriş doğru kabul edildi
+
+•Hashverfahren
+•Anwendungsfelder:
+•Prüfsummen
+•Digitale Signatur
+•Speichern von Passwörtern
+•Verfahren:
+•MD5 (veraltet unsicher)
+•SHA (Secure Hash Algorithm), z.B. SHA1, SHA2, SHA3  
+•RIPEMD-160
+• karma
+• Uygulama alanları:
+• Sağlama toplamları
+• Elektronik imza
+• Şifreleri kaydetme
+• Prosedür:
+•MD5 (kullanımdan kaldırıldı, güvensiz)
+•SHA (Güvenli Karma Algoritması), ör. SHA1, SHA2, SHA3
+•RIPEMD-160
+
+•Kriterien für gute Schlüssel
+•Je länger desto besser
+•Je komplexer desto besser
+• İyi anahtarlar için kriterler
+• Ne kadar uzun o kadar iyi
+• Ne kadar karmaşıksa o kadar iyi
+
+1.2 symmetrische Verschlüsselung
+•Ziel
+•Sender sendet eine verschlüsselte Nachricht zum Empfänger.
+•Empfänger erhält eine verschlüsselte Nachricht und kann sie lesen
+1.2 simetrik şifreleme
+•Hedef
+• Gönderici, alıcıya şifreli bir mesaj gönderir.
+• Alıcı şifreli bir mesaj alır ve bunu okuyabilir
+ 
+
+
+•Lösungsansatz
+•Es wird EIN Schlüssel erzeugt.
+•Der Schlüssel muss dem Sender und Empfänger vorliegen
+•Çözüm yaklaşımı
+• BİR anahtar oluşturulur.
+• Anahtar, gönderici ve alıcı tarafından erişilebilir olmalıdır
+
+ 
+•Paket kann nun verschlüsselt werden.
+•Paket artık şifrelenebilir.
+ 
+•Paket kann nun versendet werden.
+•Paket artık gönderilebilir.
+ 
+•Paket kann nun entschlüsselt werden.
+•Paketin şifresi artık çözülebilir.
+ 
+•Beispiele für Verschlüsselungsverfahren
+•Caesar Ciffre
+•Data Encryption Standard (DES)
+•AdvancedEncryption Standard (AES)
+•Blowfish
+•. . .
+• Şifreleme yöntemlerine örnekler
+• Sezar Şifresi
+• Veri Şifreleme Standardı (DES)
+•Gelişmiş Şifreleme Standardı (AES)
+• Balon balığı ...
+
+•Vorteile symmetrischer Verschlüsselung
+•relativ schnelle Ver-und Entschlüsselung
+•Für größere Datenmengen geeignet
+•Mit langem Schlüssel ergibt sich eine hohe Sicherheit
+•Nachteile symmetrischer Verschlüsselung
+•Jeder, der im Besitz des Schlüssels ist, kann die Nachrichten Ent-und verschlüsseln
+•Es muss ein sicherer Übertragungsweg für den Austausch des Schlüssels gefunden werden
+• Simetrik şifrelemenin avantajları
+• nispeten hızlı şifreleme ve şifre çözme
+• Daha büyük miktarda veri için uygundur
+• Uzun tuş ile yüksek güvenlik sonuçları
+• Simetrik şifrelemenin dezavantajları
+• Anahtara sahip olan herkes mesajların şifresini çözebilir& şifreleyebilir
+•Anahtarı değiştirmek için güvenli bir iletim yolu bulunmalıdır
+1.3 asymmetrische Verschlüsselung
+•Ziel
+•Sender sendet eine verschlüsselte Nachricht zum Empfänger.
+•Empfänger erhält eine verschlüsselte Nachricht und kann sie lesen
+1.3 Asimetrik Şifreleme
+•Hedef
+• Gönderici, alıcıya şifreli bir mesaj gönderir.
+• Alıcı şifreli bir mesaj alır ve bunu okuyabilir
+ 
+
+
+•Lösungsansatz
+•1. Der Empfänger erstellt ein Schlüsselpaar.
+•Einen öffentlichen Schlüssel (Public Key)
+•und einen geheimen Schlüssel (Secret Key)
+•Çözüm yaklaşımı
+•1. Alıcı bir anahtar çifti oluşturur.
+•Bir genel anahtar
+•ve bir gizli anahtar
+ 
+•Das Paar ist mathematisch verbunden
+•Es wird durch einen Algorithmus erzeugt
+•Çift matematiksel olarak ilişkilidir
+•Bir algoritma tarafından üretilir
+ 
+•Aufgabe Public Key
+•Er verschlüsselt die Nachricht des Senders
+•Aufgabe Secret Key
+•Er entschlüsselt die verschlüsselte Nachricht des Senders
+• Görev genel anahtarı
+• Gönderenin mesajını şifreler
+• Görev Gizli Anahtarı
+• Gönderenin şifreli mesajının şifresini çözer
+
+
+
+
+
+
+
+•2. Der Empfänger übermittelt dem Sender seinen Public Key
+•2. Alıcı, açık anahtarını gönderene iletir.
+ 
+•2. Der Sender verschlüsselt die Nachricht mit dem Public Key des Empfänger
+•2. Gönderici, mesajı alıcının genel anahtarıyla şifreler.
+ 
+•2. Der Sender versendet die Nachricht zum Empfänger
+•2. Gönderici mesajı alıcıya gönderir
+ 
+•2. Der Empfänger entschlüsselt die Nachricht  mit seinem Secret Key
+•2. Alıcı, gizli anahtarıyla mesajın şifresini çözer.
+ 
+•Beispiele für Verschlüsselungsverfahren
+•RSA
+•Merkle-Hellmann
+•Benaloh
+•. . .
+• Şifreleme yöntemlerine örnekler
+•RSA
+• Merkle-Hellmann
+•Benaloh
+
+•Vorteile asymmetrischer Verschlüsselung
+•Für kleinere Datenmengen geeignet
+•Nachteile asymmetrischer Verschlüsselung
+•Benötigt mehr Rechenleistung als bei symmetrischer Verschlüsselung (bis zu 1000 x mehr)n
+• Asimetrik şifrelemenin avantajları
+• Daha az miktarda veri için uygundur
+• Asimetrik şifrelemenin dezavantajları
+•Simetrik şifrelemeden daha fazla bilgi işlem gücü gerektirir (1000 kata kadar daha fazla)n
+
+
+
+
+1.4 weitere Verschlüsselungen
+•Hybride Verschlüsselung
+•Vereint die Vorteile der symmetrischen und asymmetrischen Verschlüsselung
+•Der gemeinsame Schlüssel wird asymmetrisch übertragen, der Rest anschließend symmetrisch
+1.4 daha fazla şifreleme
+•Karma şifreleme
+• Simetrik ve asimetrik şifrelemenin avantajlarını birleştirir
+•Ortak anahtar asimetrik olarak iletilir, geri kalanı simetrik olarak iletilir
+
+1.5 Verschlüsselungsprotokolle und ihre Anwendung
+•Hierbei handelt es sich um Netzwerkprotokolle, die eine verschlüsselte Datenübertragung in einem Netz garantieren.
+•Dies dient zur Sicherstellung der Vertraulichkeit und Integrität in Bezug auf die übertragenen Daten, stellt zugleich jedoch auch eine gesetzliche Pflicht im Zusammenhang mit der Übermittlung personenbezogener Daten dar.
+•In der Regel bestehen Verschlüsselungsprotokolle aus einem sogenannten Schlüsselaustauschprotokoll in Verbindung mit einem symmetrischen Verschlüsselungsverfahren
+1.5 Şifreleme protokolleri ve uygulamaları
+•Bunlar, bir ağda şifreli veri iletimini garanti eden ağ protokolleridir.
+•Bu, iletilen verilerle ilgili olarak gizliliğin ve bütünlüğün sağlanmasına hizmet eder, ancak aynı zamanda kişisel verilerin iletilmesiyle bağlantılı olarak yasal bir yükümlülüğü temsil eder.
+•Şifreleme protokolleri genellikle simetrik bir şifreleme işlemiyle bağlantılı olarak sözde anahtar değişim protokolünden oluşur.
+
+Die wichtigsten Standards von Verschlüsselungsprotokollen:
+•Transport Layer Security (TLS, früher Secure Sockets Layer, SSL)
+•WPA3 und WPA2
+•Secure Shell (SSH)
+•IPsec
+Şifreleme protokollerinin en önemli standartları:
+• Aktarım Katmanı Güvenliği (TLS, eski adıyla Güvenli Yuva Katmanı, SSL)
+•WPA3 ve WPA2
+• Güvenli Kabuk (SSH)
+•IPsn
+
+Schlüsselaustauschprotokoll
+•Bei diesem Protokoll wird entweder ein geheimer Schlüssel an zwei oder mehr Kommunikationspartner übermittelt oder während der Durchführung des Protokolls ein geheimer Schlüssel nach festgelegter Verfahrensweise erzeugt.
+anahtar değişim protokolü
+•Bu protokol ile protokol yürütülürken ya iki veya daha fazla iletişim ortağına bir gizli anahtar iletilir ya da tanımlanmış bir prosedüre göre bir gizli anahtar üretilir.
+
+Die drei bekanntesten lauten:
+•Merkles Puzzle
+•Diffie-Hellmann-Schlüsseltausch
+•Needham-Schroeder-Protokoll
+En iyi bilinen üç tanesi:
+• Merkle'nin yapbozu
+• Diffie-Hellmann anahtar değişimi
+• Needham-Schroeder protokolü
+
+2 Signaturen
+2.1 Digitales Zertifikat
+•Ein Datensatz der bestimmte Eigenschaften einer Person bestätigen und dessen Authentizität und Integrität durch kryptografische Verfahren prüft
+•Enthält alle zur Prüfung notwendigen Daten
+•Die Ausstellung erfolgt durch eine offizielle Zertifizierungsstelle (CertificationAuthority [CA])
+•Verbreiteter Standard ist x.509, diese Zertifikate bestätigen die Identität des Inhaber und weitere Eigenschaften des öffentlichen Schlüssels
+2 imza
+2.1 Dijital Sertifika
+•Kişinin belirli özelliklerini onaylayan ve kriptografik yöntemler kullanarak gerçekliğini ve bütünlüğünü kontrol eden bir kayıt
+•Test için gerekli tüm verileri içerir
+• Sorun, resmi bir sertifika yetkilisi tarafından yürütülür (CertificationAuthority [CA])
+•Yaygın standart x.509'dur, bu sertifikalar, sahibinin kimliğini ve açık anahtarın diğer özelliklerini doğrular.
+
+ 
+•Können genutzt werden um öffentliche Schlüssel bereit zu stellen
+•Haben eine zeitlich befristete Gültigkeitsdauer
+•Angaben zur zulässigen Anwendungs-und Geltungsbereich 
+•Genel anahtarlar sağlamak için kullanılabilir
+•Sınırlı bir geçerlilik süresine sahip olmak
+• İzin verilen kullanım ve kapsam özellikleri
+ 
+
+•beinhaltet Informationen über die einzelnen Zertifizierungsinstanzen
+• her sertifika yetkilisi hakkında bilgi içerir
+
+ 
+
+
+•Root-CA
+•stellt nur Zertifikate für die untergeordneten CA‘saus
+•Lange Gültigkeitsdauer der Zertifikate (10 –20 Jahre)
+•Erstellt das Stammzert. Der gesamten PKI extremer Schutzbedarf
+•Intermediate CA
+•Analog Root CA
+•Geringerer Schutzbedarf
+•Issuing CA
+•Stellt die tatsächlichen Zert. Für die Clients aus
+•Gültigkeitsdauer ca. 5 Jahre
+• Kök CA
+• yalnızca bağımlı CA'lar için sertifika verir
+• Sertifikaların uzun geçerlilik süresi (10 -20 yıl)
+•Kök Sertifikasını oluşturur. Tüm PKI aşırı koruma ihtiyacı
+•Orta Seviye CA
+• Kök CA ile aynı
+• Daha düşük koruma ihtiyacı
+• CA'yı Verme
+•Gerçek sertifikaları temsil eder. kapalı müşteriler için
+•Geçerlilik süresi yaklaşık 5 yıl
+ 
+2.2 Digitale Signatur
+•Die digitale Signatur ist ein asymmetrisches Verschlüsselungssystem, bei dem mit einem privaten Signaturschlüssel der Hashwert einer Nachricht, die Signatur, berechnet wird.
+•Die Signatur ermöglicht es, mittels des dazugehörigen öffentlichen Signaturschlüssels, die Nachricht auf Authentizität und Integrität zu prüfen.
+•Der Signaturschlüssel muss eindeutig einer Person zugeordnet sein.
+2.2 Dijital İmza
+•Dijital imza, bir mesajın hash değerinin, imzanın özel bir imza anahtarı kullanılarak hesaplandığı asimetrik bir şifreleme sistemidir.
+•İmza, ilişkili ortak imza anahtarı kullanılarak iletinin özgünlüğünün ve bütünlüğünün kontrol edilmesini sağlar.
+•İmza anahtarı bir kişiye benzersiz olarak atanmalıdır.
+
+•Rechtliche Folgen
+•Wird die Signatur an eine Nachricht oder ein Dokument angehängt, dann gilt das als unterschrieben.
+•Für digitale Nachrichten und Dokumente werden digitale Signaturen verwendet, um ihre Echtheit glaubhaft und prüfbar zu machen.
+•Die Echtheit der Signatur kann elektronisch geprüft werden.
+•Yasal sonuçlar
+•İmza bir mesaja veya belgeye iliştirilmişse imzalanmış sayılır.
+•Dijital imzalar, orijinalliklerini inandırıcı ve doğrulanabilir kılmak için dijital mesajlar ve belgeler için kullanılır.
+•İmzanın gerçekliği elektronik olarak kontrol edilebilir.
+
+•Anforderungen
+•Sollte auf einem elektronischen Zertifikat beruhen, damit die Echtheit überprüfbar ist.
+•Die digitale Signatur darf nicht auf andere Dokumente übertragbar sein.
+•Soll den Nachweis erbringen, dass das Dokument seit der Unterzeichnung nicht verändert wurde.
+•Die digitale Signatur soll die Überprüfung der Identität des Unterzeichners überprüfen.
+•Gereksinimler
+•Gerçekliğin doğrulanabilmesi için elektronik sertifikaya dayalı olmalıdır.
+•Dijital imza başka belgelere aktarılamaz.
+• Belgenin imzalandıktan sonra değiştirilmediğine dair kanıt sunacaktır.
+• Dijital imzanın amacı, imzalayanın kimliğini doğrulamaktır.
+
+
+•Digitale Signatur erstellen
+• Dijital imza oluşturun
+
+ 
+
+
+
+
+
+
+
+•Digitale Signaturüberprüfen
+• Dijital imzayı doğrulayın
+
+ 
+2.3 Public Key Infrastructure (PKI)
+•Mittels PKI können digitale Zertifikate erzeugt, verteilt aber auch geprüft werden
+•Es soll sichergestellt werden, dass ein öffentlicher Schlüssel tatsächlich vom Absender des Schlüssels stammt (und eben nicht ein Dritter vorgibt, der rechtmäßige Absender zu sein)
+•Bestandteile einer PKI
+•Digitale Zertifikate
+•Zertifizierungsstelle
+•Zertifizierungssperrliste
+•Verzeichnisdienst
+•Weitere Dokumente und Informationen
+
+2.3 Açık Anahtar Altyapısı (PKI)
+•PKI kullanılarak dijital sertifikalar oluşturulabilir, dağıtılabilir ve ayrıca kontrol edilebilir
+• Bir genel anahtarın gerçekten anahtarı gönderenden geldiğinden emin olunmalıdır (ve üçüncü bir tarafın meşru gönderici gibi davranmaması)
+• Bir PKI'nin Bileşenleri
+• Dijital Sertifikalar
+•Sertifika Yetkilisi
+•Sertifika İptal Listesi
+• Dizin hizmeti
+•Diğer belgeler ve bilgiler
+
+
+•(https://www.security-insider.de| www.pki.bayern.de)
+
