@@ -1,0 +1,144 @@
+ISDS_Tag_08_proakt_Sicherheit
+
+•Defensive Programmierung
+•Gehärtete Betriebssysteme
+•Patches
+•Vulnerability Assessment
+•Aktive Sicherheit von Netzwerkkomponenten 
+• Savunmacı Programlama
+• Güçlendirilmiş işletim sistemleri
+• Yamalar
+• Güvenlik açığı değerlendirmesi
+• Ağ bileşenlerinin aktif güvenliği
+
+01 Defensive Programmierung
+Was bedeutet defensive Programmierung?
+•Im weitesten Sinn könnte man vereinfacht sagen, dass defensiv programmierte Anwendungen im allgemeinen deutlich misstrauischer sind. Sie überprüfen vor dem eigentlichen Zweck möglichst viele Voraussetzungen ab, bevor sie mit ihrer eigentlichen „Arbeit“ beginnen. In der Regel beenden defensiv programmierte Applikationen laufende Prozesse, wenn einzelne oder mehrere Voraussetzungen nicht erfüllt werden.
+01 Savunma Programlama
+Savunma programlaması ne anlama geliyor?
+• En geniş anlamda, savunma amaçlı programlanmış uygulamaların genellikle çok daha şüpheli olduğu söylenebilir. Gerçek amaçtan önce, gerçek "işlerine" başlamadan önce mümkün olduğu kadar çok ön koşulu kontrol ederler. Kural olarak, savunma amaçlı programlanmış uygulamalar, bir veya daha fazla gereksinim karşılanmazsa, çalışan işlemleri sonlandırır.
+
+•Ein System muss sich nicht einem einzigen Konzept verschreiben. Grundsätzlich lässt es sich so aufteilen, dass Einwirkungen von außen (Benutzereingaben, Datenimport, Programmierschnittstellen) defensiv zu handhaben sind, während das bei inneren Abläufen nicht erforderlich ist.
+•Bir sistem tek bir konsepte bağlı olmak zorunda değildir. Temel olarak, dış etkilerin (kullanıcı girişi, veri içe aktarma, programlama arayüzleri) savunmacı bir şekilde ele alınması gerekirken, dahili süreçlerin gerekmediği şekilde bölünebilir.
+
+•Beispiele
+•Eine potenziell unerwartete Benutzereingabe, mit der nicht wie geplant umgegangen werden kann und die deshalb bei defensivem Programmieren abgefangen werden muss.
+•Eingabe geforderter Angaben in eine vorgefertigte Datenmaske
+•PLZ muss 5 Stellen lang sein, sonst Eingabefehler, ähnlich auch bei TT.MM.JJJJ
+•Eine Datei soll kopiert werden. Ein defensives Programm prüft vorher Quell-und Zielverzeichnis, Lese-und schreibrechte, etc.
+•Örnekler
+• Amaçlandığı gibi işlenemeyen ve bu nedenle savunma programlaması tarafından yakalanması gereken, potansiyel olarak beklenmeyen bir kullanıcı girişi.
+• Gerekli bilgilerin önceden hazırlanmış bir veri maskesine girilmesi
+• Posta kodu 5 basamak uzunluğunda olmalıdır, aksi takdirde GG.AA.YYYY'ye benzer giriş hataları
+• Bir dosya kopyalanacak. Bir savunma programı, kaynak ve hedef dizini, okuma ve yazma izinlerini vb. kontrol eder.
+
+02 Gehärtetes Betriebssystem
+Was ist ein gehärtetes Betriebssystem?
+•Der Begriff “Systemhärtung” ist die Übersetzung des Englischen “System Hardening”. Im IT-Sprachgebrauch wird vereinfacht auch nur von der “Härtung” bzw. dem “Härten” gesprochen.
+•Da auf IT-Systemen unter anderem auch höchst sensible Informationen eines Unternehmens sowie personenbezogene Daten verarbeitet und gespeichert werden, müssen die verwendeten Systeme besonderen Schutzmaßnahmen unterzogen werden. Eine sehr wirkungsvolle Maßnahme zur Absicherung stellt die Systemhärtung dar. 
+02 Sertleştirilmiş işletim sistemi
+Sertleştirilmiş işletim sistemi nedir?
+•“Sistem sertleştirme” terimi, İngilizce “sistem sertleştirme”nin çevirisidir. BT terminolojisinde, basitçe söylemek gerekirse, "sertleştirme" veya "sertleştirme" kullanılır.
+•Son derece hassas şirket bilgileri ve kişisel veriler IT sistemlerinde işlenip saklandığından, kullanılan sistemler özel koruyucu önlemlere tabi tutulmalıdır. Sistem sertleştirme çok etkili bir korumadır.
+
+•Die Systemhärtung sichert das Betriebssystem ab, unabhängig davon, ob es sich um ein physikalisches, virtuelles oder Cloud-basiertes System handelt.
+•Sistem sağlamlaştırma, ister fiziksel, ister sanal veya bulut tabanlı bir sistem olsun, işletim sisteminin güvenliğini sağlar.
+
+
+•Gängige IT-Systeme mit Betriebssystemen wie beispielsweise Windows, werden von den Herstellern auf größtmögliche Kompatibilität vorkonfiguriert. Die Folge davon, die IT-Systeme werden dadurch angreifbar. Zudem sind oft Features und Komponenten verfügbar, welche ungenutzt bleiben und ebenfalls dadurch ein zusätzliches Sicherheitsrisiko darstellen. 
+•Windows gibi işletim sistemlerine sahip ortak BT sistemleri, maksimum uyumluluk için üreticiler tarafından önceden yapılandırılmıştır. Sonuç olarak, BT sistemleri savunmasız hale gelir. Ek olarak, genellikle kullanılmayan ve dolayısıyla ek bir güvenlik riski oluşturan özellikler ve bileşenler mevcuttur.
+
+•Standardmäßig werden bei Betriebssystemen keine beschränkenden Sicherheitskonfigurationen angewendet. Gerade diese oft ungenutzten und nicht konfigurierten Funktionalitäten nutzen Angreifer wie Hacker häufig als Angriffsvektor aus.
+•Ziel der technischen Maßnahme “Härtung”: Diese Funktionalitäten sowie deren ungenutzte Schnittstellen werden deaktiviert oder sogar deinstalliert.
+•Varsayılan olarak, işletim sistemlerine hiçbir kısıtlayıcı güvenlik yapılandırması uygulanmaz. Saldırganların ve bilgisayar korsanlarının genellikle bir saldırı vektörü olarak kullandığı tam da bu genellikle kullanılmayan ve yapılandırılmamış işlevlerdir.
+•"Sertleştirme" teknik önleminin amacı: Bu işlevler ve bunların kullanılmayan arayüzleri devre dışı bırakılır ve hatta kaldırılır.
+
+Bedrohungen bei nicht gehärteten Systemen
+•Identitätsdiebstahl, z.B. bei Angriffen auf die zentrale Identitäts-Management-Struktur oder am heimischen PC
+•Daten-Manipulation von personenbezogenen Daten und/oder sensiblen Unternehmensdaten
+•Datenabfluss, z.B. das Kopieren gesamter Datenbanken
+•Manipulation von Anwendungen oder damit verbundener Systeme
+•Sabotage oder Spionage bei Betriebs-und Produktionsabläufen
+•Einschleusen und Verbreitung von Malware
+Sertleştirilmemiş sistemlere yönelik tehditler
+• Kimlik hırsızlığı, örneğin merkezi kimlik yönetimi yapısına veya ev bilgisayarına saldırılar olması durumunda
+• Kişisel verilerin ve/veya hassas şirket verilerinin veri manipülasyonu
+• Veri sızıntısı, örneğin tüm veritabanlarının kopyalanması
+• Uygulamaların veya ilgili sistemlerin manipülasyonu
+• Operasyonel ve üretim süreçlerinde sabotaj veya casusluk
+• Kötü amaçlı yazılım enjeksiyonu ve dağıtımı
+
+03 Patches
+•Patches, einfach übersetzt „Flicken“.
+•Wenn in Programmen oder Betriebssystemen Fehler auftauchen, die Sicherheitslücken entstehen lassen, sind Hersteller bemüht schnell „Nachbesserungen“ anzubieten, um diese Lücken zu schließen. Sogenannte Patches oder aber auch Bugfixes.
+•Der Funktionsumfang nimmt in aller Regel durch ein Patch nicht zu
+03 yamalar
+• Yamalar, basitçe tercüme edilen "yamalar".
+• Güvenlik açıkları oluşturan programlarda veya işletim sistemlerinde hatalar meydana gelirse, üreticiler bu açıkları kapatmak için hızlı bir şekilde “düzeltmeler” sunmaya çalışırlar. Sözde yamalar veya hata düzeltmeleri.
+• İşlev aralığı genellikle bir yama ile artmaz
+
+•Diese „Nachbesserung“ erübrigt komplexe Neuinstallationen.
+•Dateien werden gelöscht, oder der Quellcode dieser wird durch ein Patch verändert.
+•Patch Management Software unterstützt die Verwaltung und Verteilung von Patches in IT-Systemen
+•Bu "düzeltme", karmaşık yeniden kurulum ihtiyacını ortadan kaldırır.
+•Dosyalar silinir veya bunların kaynak kodu bir yama ile değiştirilir.
+•Yama yönetimi yazılımı, BT sistemlerinde yamaların yönetimini ve dağıtımını destekler
+
+04 Vulnerability Assessment
+
+Schwachstellenanalyse
+•Prozesse und / oder Verfahrensabläufe werden auf Schwachstellen untersucht.
+•PDCA und Audits gehören zu den durchaus umfangreichen und komplexen Verfahrensweisen als Bestandteil entsprechender Analysen.
+•Systeme werden auf Schwachstellen gescannt, Arbeitsabläufe und Berechtigungen werden geprüft, Richtlinien durchgespielt.
+04 Güvenlik Açığı Değerlendirmesi
+
+güvenlik açığı analizi
+•Süreçler ve/veya prosedürler zayıflıklar açısından incelenir.
+•PDCA ve denetimler, ilgili analizlerin bir parçası olarak oldukça kapsamlı ve karmaşık prosedürler arasındadır.
+•Sistemler zafiyetlere karşı taranır, iş akışları ve yetkiler kontrol edilir, kılavuzlar çalıştırılır.
+•Der Schwachstellenanalyse folgt die Risikoanalyse
+•Risikoanalyse
+•Risikomanagement z. B. nach ISO 27005ergibts sich aus ISO 27001siehe Foliensatz „Grundlagen Sicherheit“ (Tag 03) und/oder ISO 27005 Einführung (risikomanagement-wissen.de)
+•Schwachstellenanalyse und Risikoanalyse sind feste Bestanteile eines ISMS (Information Security Management System)
+• Zafiyet analizini risk analizi takip eder.
+• Risk analizi
+• risk yönetimi örn. B. ISO 27005'e göre ISO 27001'in sonuçları "Güvenliğin Temelleri" slayt kümesine bakın (03. Gün) ve/veya ISO 27005 Giriş (riskmanagement-wissen.de)
+• Güvenlik açığı analizi ve risk analizi, bir BGYS'nin (Bilgi Güvenliği Yönetim Sistemi) ayrılmaz parçalarıdır.
+
+05 Sicherheit durch Netzwerkkomponenten
+
+•Die Sicherheit in einem Netzwerk setzt sich aus einer Vielzahl einzelner Komponenten zusammen.
+•Firewall
+•Managed Switch (VLAN)
+•IDS & IPS Netzsensoren
+•Subnetze
+
+05 Ağ bileşenleri aracılığıyla güvenlik
+
+• Bir ağdaki güvenlik, çok sayıda bağımsız bileşenden oluşur.
+• Güvenlik duvarı
+• Yönetilen anahtar (VLAN)
+• IDS ve IPS ağ sensörleri
+• Alt ağlar
+
+
+•Die Sicherheit in einem Netzwerk setzt sich aus einer Vielzahl einzelner Komponenten zusammen. 
+•Einstellungen
+•Regeln
+•Konfigurationen
+•eine Kombination aus physischen und logischen Komponenten
+• Bir ağdaki güvenlik, çok sayıda bağımsız bileşenden oluşur.
+• Ayarlar
+• Tüzük
+• Yapılandırmalar
+• fiziksel ve mantıksal bileşenlerin bir kombinasyonu
+
+
+•Es ist sehr vordergründig, die Netzwerkkomponenten selbst entsprechend abzusichern.
+•Wie bereits gelernt, ein Firewall regelt den Datenverkehr in bzw. zwischen Netzen. Doch was nutzen die besten und sichersten Konfigurationen, wenn beispielsweise das Managementinterface einer Firewall aus dem Internet unautorisiert erreichbar ist?
+•Hat jemand unautorisiertes ich die Möglichkeit, die Konfiguration zu beeinflussen, ist die Regelfunktion der Firewall gegenstandslos.
+•Ağ bileşenlerinin kendilerini buna göre güvenceye almak çok önemlidir.
+•Daha önce öğrenildiği gibi, bir güvenlik duvarı ağlar içindeki veya ağlar arasındaki veri trafiğini düzenler. Ancak, örneğin, bir güvenlik duvarının yönetim arayüzüne internetten izinsiz olarak erişilebiliyorsa, en iyi ve en güvenli yapılandırmalar ne işe yarar?
+•Yetkisiz bir kişinin yapılandırmayı etkileme fırsatı varsa, güvenlik duvarının kontrol işlevi önemsizdir.
+
+
