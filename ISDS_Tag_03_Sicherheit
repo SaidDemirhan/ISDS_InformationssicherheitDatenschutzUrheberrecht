@@ -1,0 +1,278 @@
+ISDS_Tag_03_Sicherheit
+Bedeutung von Sicherheit
+•IT-Sicherheit
+•Computersicherheit
+•Datensicherheit
+•Datensicherung
+•So schnell wie sich die Technik entwickelt, verändern sich auch Sicherheitskonzepte
+
+güvenliğin önemi
+• Bilgi Teknolojileri Güvenliği
+• Bilgisayar Güvenliği
+• Veri güvenliği
+• Veri yedekleme
+• Teknoloji geliştikçe güvenlik kavramları hızla değişiyor
+
+Grundlegende Schutzziele und Maßnahmen 
+Temel koruma hedefleri ve önlemleri
+
+•Vertraulichkeit		Confidentiality
+Ein System gewährleistet Vertraulichkeit, sofern niemand unautorisiert Informationen gewinnen kann.
+Gizlilik
+Bir sistem, hiç kimse yetkisiz bilgi almadığı sürece gizliliği sağlar.
+
+•Integrität			Integrity
+Ein System gewährleistet die Integrität, sofern es nicht möglich ist, Daten unautorisiert und unbemerkt zu verändern. Gewährleistung der Ursprünglichkeit, Unverfälschtheit, Authentizität, Verbindlichkeit . 
+Bütünlük
+Bir sistem, verileri izinsiz ve fark edilmeden değiştirmek mümkün değilse bütünlüğü garanti eder. Özgünlük, hakikilik, özgünlük, bağlılık garantisi.
+
+•Verfügbarkeit		Availability
+Ein System gewährleistet die Verfügbarkeit, wenn Systeme redundant, ausfallsicher und wiederherstellbar abgesichert sind und über einen entsprechenden Schutz verfügen. Beispiele:
+•USV
+•Backup
+•Notfallplan
+•Krisenmanagement
+Müsaitlik Müsaitliği
+Bir sistem, sistemler yedekli, hatasız ve kurtarılabilir olduğunda ve uygun korumaya sahip olduğunda kullanılabilirliği sağlar. Örnekler:
+• GÜÇ KAYNAĞI
+• Destek olmak
+• Acil durum planı
+• Kriz yönetimi
+
+•Belastbarkeit 
+(Resilienz) als Ergänzung
+Dayanıklılık
+(Dayanıklılık) ek olarak
+
+BSI Bundesamt für Sicherheit in der Informationstechnik
+BSI Bilgi Teknolojisinde Güvenlik Federal Ofisi
+Einstieg
+ 
+ 
+ 
+Standards
+  
+IT-Grundschutz-Kompendium
+•Ziel, Idee, Konzeption
+•Schwachstellen
+•Bedrohungen
+•Gefährdungen
+BT temel koruma özeti
+• Hedef, fikir, anlayış
+• Güvenlik açıkları
+• Tehditler
+• Tehlikeler
+
+Trifft eine Bedrohung auf eine Schwachstelle, dann entsteht eine Gefährdung
+Bir tehdit bir güvenlik açığıyla karşılaştığında, bir güvenlik açığı ortaya çıkar.
+
+Schwachstellen
+•Physische Schwachstellen
+•Natürliche Schwachstellen
+•Schwachstellen von bzw. durch Hard-Software
+•Schwachstellen von Medien
+•Schwachstellen von Kommunikationsleitungen
+•Schwachstellen durch Emissionen
+•Schwachstellen durch Menschen
+güvenlik açıkları
+• Fiziksel güvenlik açıkları
+• Doğal güvenlik açıkları
+• Donanım yazılımından kaynaklanan veya donanım yazılımından kaynaklanan güvenlik açıkları
+• Medya güvenlik açıkları
+• İletişim hattı zayıflıkları
+• Emisyon güvenlik açıkları
+• İnsan açıkları
+
+Bedrohungen
+•USER
+•Infrastrukturen
+•Veraltete Technik
+•Fehlendes Wissen
+•Schadsoftware
+tehditler
+• KULLANICI
+• Altyapılar
+• Eski teknoloji
+• Eksik bilgi
+• Kötü amaçlı yazılım
+
+Der User: Etwa 85 % aller erfolgreichen Angriffe auf IT-Systeme sind nur erfolgreich durch die bewusste oder unbewusste Mithilfe von Usern.
+•Routine / Gewohnheiten
+•Unbekümmertheit
+•Manipulation
+•sozial engineering
+•Phishing
+•Spam
+Kullanıcı: BT sistemlerine yapılan tüm başarılı saldırıların yaklaşık %85'i, yalnızca kullanıcıların bilinçli veya bilinçsiz yardımıyla başarılı olur.
+• Rutin / Alışkanlıklar
+• İlgisizlik
+• Manipülasyon
+• sosyal mühendislik
+• E-dolandırıcılık
+• İstenmeyen e-posta
+
+
+
+
+
+
+
+
+
+
+Grundlagen Risikomanagement
+Risk yönetiminin temelleri
+
+•Ein Risiko kann als die Beschreibung eines Ereignisses mit der Möglichkeit negativer Auswirkungen definiert werden. Unbekümmertheit
+•Unter Risiko wird die Gefahr verstanden, dass Ereignisse oder Handlungen im hindern, die anvisierten Ziele zu erreichen.
+•Ziel des Risikomanagements ist es, alle Risiken (organisatorisch & technisch) adäquat erfassen, analysieren und bewerten. Ihre Veränderung zu dokumentieren und Gegenmaßnahmen durch festgelegten Risikostrategien einleiten
+•Beachtung der rechtlichen und regulatorischen Anforderungen 
+•Risk, olumsuz etki olasılığı olan bir olayın tanımı olarak tanımlanabilir. dikkatsizlik
+•Risk, olayların veya eylemlerin sizi hedeflerinize ulaşmaktan alıkoyması tehlikesidir.
+•Risk yönetiminin amacı, tüm riskleri (organizasyonel ve teknik) yeterli şekilde kaydetmek, analiz etmek ve değerlendirmektir. Değişikliğinizi belgelemek ve tanımlanmış risk stratejileri aracılığıyla karşı önlemleri başlatmak için
+•Yasal ve düzenleyici gerekliliklere uygunluk
+
+•Aufstellung einer Risikoliste aus internen und externen Informationen
+•Identifikation von
+•Assets
+•Bedrohungen
+•Schwachstellen
+•Analyse von Ursachen, Quellen und Auswirkungen von Risiken in einer Risikoinventur (Schadensausmaß und Eintrittswahrscheinlichkeit)
+•Festlegung der Eintrittswahrscheinlichkeiten oder Häufigkeiten und Schadenshöhe
+•İç ve dış bilgilerden risk listesinin hazırlanması
+• Tanımlanması
+•Varlıklar
+•Tehditler
+• Güvenlik açıkları
+• Bir risk envanterindeki risklerin nedenleri, kaynakları ve etkilerinin analizi (hasarın kapsamı ve meydana gelme olasılığı)
+• Hasarın meydana gelme olasılığının veya sıklığının ve kapsamının belirlenmesi
+
+•Identifikation von Möglichkeiten
+•Risikoreduktion
+•Klassische Sicherheitsmaßnahmen
+•Risikovermeidung
+•Risikotransfer
+•Risikoakzeptanz
+•Bewertung, wie weit die ausgewählten Maßnahmen Risiken reduzieren
+•Bestimmung des verbleibenden Risikos
+•Managemententscheidung –formal, schriftlich, mit Begründung 
+• Fırsatların belirlenmesi
+•Risk azaltma
+• Klasik güvenlik önlemleri
+•Riskten kaçınma
+•Risk transferi
+•Risk kabulü
+• Seçilen önlemlerin riskleri ne kadar azalttığının değerlendirilmesi
+• Kalan riskin belirlenmesi
+• Yönetim kararı – resmi, yazılı, gerekçeli
+
+Information Security Management System
+Eigenschaften und Ziele eines ISMS
+•Verankerung in der Organisation
+•Verbindliche Ziele
+•Richtlinien
+•Personalmanagement
+•Aktualität des Wissens
+•Qualifikation und Fortbildung
+•Adaptive Sicherheit
+•Vorbereitung
+Bilgi güvenliği yönetim sistemi
+Bir BGYS'nin özellikleri ve hedefleri
+•Organizasyonda demirleme
+• Bağlayıcı Hedefler
+• Politikalar
+•Personel Yönetimi
+• Bilginin güncelliği
+• Yeterlilik ve eğitim
+• Uyarlanabilir Güvenlik
+•Hazırlık
+
+Grundlagen zur Einrichtung eines solchen Systems
+•Grundschutz Kompendium
+•BSI –Standards
+•ISO´s
+•ISIS 12 für KMU
+Böyle bir sistemi kurmanın temelleri
+•Temel koruma özeti
+•BSI standartları
+•ISO'lar
+•KOBİ'ler için ISIS 12
+
+
+ISO 2700x
+International Organization for Standardization
+•ISO 27000 Normen stellen eine Zertifizierungsgrundlage dar
+•ISO 2700x
+•ISO 27701
+Uluslararası Standardizasyon Örgütü
+•ISO 27000 standartları sertifikasyon için bir temel teşkil eder
+•ISO 2700x
+•ISO 27701
+
+•ISO/IEC 27000 enthält Begriffe und Definitionen, welche in der Normenserie ISO/IEC 27000 verwendet werden.
+•ISO/IEC 27001 enthält die Anforderungen an ein ISMS.
+•ISO/IEC 27002 enthält Empfehlungen für diverse Kontrollmechanismen für die Informationssicherheit.
+•Am 15. Juni 2005 wurde der Leitfaden ISO/IEC 17799:2005 Information technology–Security techniques–Code ofpracticeforinformationsecuritymanagementveröffentlicht, der auf BS 7799-1-Norm fußt. Bezugnehmend auf ISO/IEC JTC 1/SC 27 N5981 SecretariatISO/IEC JTC 1/SC 27 –Deutsches Institut für Normung e.V. ist die Norm seit Sommer 2007 von ISO/IEC 17799:2005 in ISO/IEC 27002:2005 umbenannt worden.
+•ISO/IEC 27003 enthält einen Leitfaden zur Umsetzung der ISO/IEC 27001 (herausgegeben im Februar 2010).
+•ISO FCD 27004 „Information Security Management Measurement“ (herausgegeben im September 2012).
+•ISO FCD 27005 ist an den BS 7799-3:2006 angelehnt und behandelt das Thema IS Risikomanagement (herausgegeben im Juni 2008).
+•ISO/IEC 27000, ISO/IEC 27000 serisi standartlarda kullanılan terimleri ve tanımları içerir.
+•ISO/IEC 27001, bir BGYS için gereksinimleri içerir.
+•ISO/IEC 27002, bilgi güvenliği için çeşitli kontrol mekanizmaları için öneriler içerir.
+•15 Haziran 2005'te, BS 7799-1 standardına dayalı olarak ISO/IEC 17799:2005 Bilgi teknolojisi–Güvenlik teknikleri–Bilgi güvenliği yönetimi için uygulama kuralları yayınlandı. ISO/IEC JTC 1/SC 27 N5981 SecretariatISO/IEC JTC 1/SC 27 – Deutsches Institut für Normung e.V.'ye atıfta bulunulan standart, 2007 yazından bu yana ISO/IEC 17799:2005'ten ISO/IEC 27002:2005 olarak yeniden adlandırılmıştır.
+•ISO/IEC 27003, ISO/IEC 27001'in nasıl uygulanacağı konusunda rehberlik sağlar (Şubat 2010'da yayınlandı).
+•ISO FCD 27004 Bilgi Güvenliği Yönetim Ölçümü (Eylül 2012'de yayınlandı).
+• ISO FCD 27005, BS 7799-3:2006'yı temel alır ve IS risk yönetimi ile ilgilenir (Haziran 2008'de yayınlanmıştır).
+
+ISO 27701
+
+International OrganizationforStandardization
+•Mit der neuen Norm ISO/IEC 27701 (2019)wird das klassische Informationssicherheitsmanagementsystem ISO 27001 um Datenschutzaspekte erweitert, so dass beide Beauftragte über das gleiche Dokumentenwerk gegenseitig zuarbeiten können
+•Informationssicherheitsbeauftragter und Datenschutzbeauftragter orientieren sich an gleichen Standards
+•Privacy Information Managementsystem (PIMS) 
+Uluslararası Standardizasyon Örgütü
+• Yeni standart ISO/IEC 27701 (2019) ile klasik bilgi güvenliği yönetim sistemi ISO 27001, veri koruma unsurlarını içerecek şekilde genişletildi, böylece her iki görevli de aynı belge setini kullanarak birbirleri üzerinde çalışabilirler.
+• Bilgi güvenliği görevlisi ve veri koruma görevlisi aynı standartları temel alır
+• Gizlilik Bilgi Yönetim Sistemi (PIMS)
+
+
+
+
+ISIS12
+
+Informationssicherheit für den Mittelstand
+•ISIS12 ist ein Modell zur Einführung eines ISMS in kleinere und mittlere IT Infrastrukturen, um auch dort die systematische und kontinuierliche Informationssicherheit zu erhöhen.
+•Abgeleitet und entwickelt aus dem Grundschutz-Kompendium und der ISO 27001, ist ISIS12 eine unabhängig zertifizierbare Einstiegsstufe und stellt die Grundlage dar, für eine umfangreichere Zertifizierung, z.B. gemäß ISO 27001, als Basis zu dienen.
+•Entwickelt durch das Netz für Informationssicherheit im Mittelstand (NIM), war vordergründig, ein Einführungskonzept in verständlicher Sprache zu erstellen, welches es kleinen und mittleren Unternehmen ohne große IT Abteilung  ebenfalls ermöglicht, der Informationssicherheit und natürlich auch gesetzlichen Vorgaben zu entsprechen.
+Orta ölçekli şirketler için bilgi güvenliği
+• ISIS12, orada da sistematik ve sürekli bilgi güvenliğini artırmak için küçük ve orta ölçekli BT altyapılarında bir BGYS'nin tanıtılması için bir modeldir.
+• Temel koruma özeti ve ISO 27001'den türetilen ve geliştirilen ISIS12, bağımsız olarak sertifikalandırılabilir bir giriş seviyesidir ve temel olarak hizmet etmek üzere örneğin ISO 27001'e göre daha kapsamlı bir sertifikalandırmanın temelini temsil eder.
+• KOBİ'lerde Bilgi Güvenliği Ağı (NIM) tarafından geliştirilen birincil amaç, büyük bir BT departmanı olmayan küçük ve orta ölçekli şirketlerin de bilgi güvenliği ve tabii ki uyum sağlamasına olanak tanıyan anlaşılır bir dilde bir giriş konsepti oluşturmaktı. , yasal yükümlülükler.
+
+Informationssicherheit für den Mittelstand
+1.Leitlinie erstellen
+2.Mitarbeiter sensibilisieren
+3.Informationssicherheitsteam aufbauen
+4.IT-Dokumentationsstruktur festlegen
+5.IT-Servicemanagement-Prozess einführen
+6.Kritische Applikationen identifizieren
+7.IT-Struktur analysieren
+8.Sicherheitsmaßnahmen modellieren
+9.Ist-Soll vergleichen
+10.Umsetzung planen
+11.Umsetzen
+12.Revision
+Orta ölçekli şirketler için bilgi güvenliği
+1. Kılavuz oluştur
+2. Çalışanları duyarlı hale getirin
+3. Bilgi güvenliği ekibi oluşturun
+4. BT dokümantasyon yapısını belirleyin
+5. BT hizmet yönetimi sürecini tanıtın
+6. Kritik uygulamaları tanımlayın
+7. BT yapısını analiz edin
+8. Model güvenlik önlemleri
+9. Hedef ile fiili karşılaştırın
+10. Uygulama planlamasi
+11. Uygulama
+12. Revizyon
+
