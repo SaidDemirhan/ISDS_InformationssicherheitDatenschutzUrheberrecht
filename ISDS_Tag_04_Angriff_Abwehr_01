@@ -1,0 +1,341 @@
+ISDS_Tag_04_Angriff_Abwehr_01
+
+•01 Angriffsvarianten
+•02 Angriffsvorbereitung
+•03 Layer 8 Problem
+•04 Spyware, Phishing, Browser Highjacking
+•05 Schadsoftware
+•06 Sicherheitssoftware
+•01 saldırı varyantları
+•02 Saldırı Hazırlığı
+•03 Katman 8 sorunu
+•04 Casus yazılım, kimlik avı, tarayıcı kaçırma
+•05 Kötü Amaçlı Yazılım
+•06 güvenlik yazılımı
+
+01 Angriffsvarianten
+Saldırı Varyasyonları
+
+01 Massenangriff
+Kein direktes Ziel definiert, Maximalprinzip: definierter Einsatz mit größtmöglicher Wirkung
+•Angreifer versendet Mails an eine möglichst große Zahl an Empfängern
+•Text, Inhalt, Layout sind gleichbleibend
+•Schadsoftware hängt an oder es ist ein Link enthalten
+01 toplu saldırı
+Tanımlanmış doğrudan bir hedef yok, maksimum ilke: mümkün olan en büyük etkiyle tanımlanmış taahhüt
+•Saldırgan mümkün olduğu kadar çok alıcıya e-posta gönderir
+•Metin, içerik, düzen tutarlı
+•Kötü amaçlı yazılım eklenmiş veya bir bağlantı eklenmiş
+
+02 gezielter Angriff
+Es wird gezielt ein Opfer ausgewählt und der Angriff angepasst
+•Hoher Zeitaufwand
+•Viel Recherchearbeit notwendig
+•z.B. über Facebook nach aktuellen Infos zum Unternehmen
+•Mitarbeitersuche
+•Auswahl einer Attacke entsprechend der Recherche
+02 hedefli saldırı
+Bir kurban özel olarak seçilir ve saldırı ayarlanır
+• Yüksek zaman harcaması
+• Çok fazla araştırma çalışması gerekli
+•Örneğin. şirket hakkında güncel bilgiler için Facebook üzerinden
+• Çalışan arama
+• Araştırmaya göre saldırı seçimi
+
+02 Angriffsvorbereitung
+Saldırı hazırlığı
+
+•Netzwerkscans
+•Wardriving
+•Sozial Engineering
+• Ağ taramaları
+• Garaj
+• Sosyal mühendislik
+
+Massenangriff
+•Zielbeispiele:-hinzufügen zu einem Botnet-Ausspionieren von Daten-Manipulation der Hardware-Identitätsdiebstall-Anzeigen von Werbung
+•Recherche nach Schwachstellen
+•Nutzen von Verhaltenswahrscheinlichkeiten
+•Drive byInfektion durch Webseiten verdrängt Mail von der Spitzenposition
+toplu saldırı
+•Hedef örnekler:-donanım kimliği hırsızlığı reklamlarının veri manipülasyonunu izleyen bir botnet'e ekleyin
+• Güvenlik açıkları araştırması
+• Davranışsal olasılıkların kullanımı
+• Web sitelerinden gelen bulaşma, Mail'i en üst noktanın dışına itiyor
+
+
+
+
+Gezielter Angriff
+•Ziel
+•Recherche
+•Ereigniskette
+•Sozial Engeneering-Der Mensch als leichteres Ziel als die Technik oder
+•Das Layer 8 Problem
+Amaçlı Saldırı
+•Hedef
+•Araştırma
+•Olaylar zinciri
+•Sosyal Mühendislik-İnsan, teknolojiden daha kolay bir hedef olarak veya
+•Katman 8 sorunu
+
+03 Layer 8 Problem
+Katman 8 sorunu
+
+•Etwa 85 % aller erfolgreichen Cyberangriffe sind nur auf Grund der bewussten oder unbewussten Mitwirkung der User erfolgreich !
+•Sorgloser Umgang 
+•Leichtfertige vergabe von Berechtigungen (z.B. Smartphone)
+•Ignorieren von Richtlinien
+•Unbedachte Preisgabe von persönlichen Informationen (FB, etc.)
+•Bequemlichkeit vor Sicherheit
+•Macht der Gewohnheit
+•Tüm başarılı siber saldırıların yaklaşık %85'i, yalnızca kullanıcının bilinçli veya bilinçsiz katılımı nedeniyle başarılı olur!
+• Dikkatsiz kullanım
+• İzinlerin dikkatsizce verilmesi (ör. akıllı telefon)
+• Politikaları yok saymak
+• Kişisel bilgilerin dikkatsizce ifşa edilmesi (FB, vb.)
+• Güvenlikten önce kolaylık
+• Alışkanlık gücü
+
+Irrtümer des 21. Jahrhunderts
+•Ich habe doch nichts zu verbergen
+•Welche Daten will man bei mir schon holen
+21. Yüzyılın Hataları
+•Saklayacak hiçbirşeyim yok
+• Benden hangi verileri almak istiyorsunuz?
+
+Mehr als 7.500 Unternehmen haben weltweit den Handel mit (theoretisch anonymisierten) personenbezogenen Daten als Kerngeschäft. Auch Ihre . .
+Der Umfang an pbD, welche auf legale Weise erfasst werden kann ist erschreckend
+Dünya çapında 7.500'den fazla şirket (teorik olarak anonimleştirilmiş) kişisel verilerin ticaretini ana faaliyet alanı olarak görmektedir. .
+Yasal olarak yakalanabilen pbD miktarı şaşırtıcı
+
+Smartphone
+•Berechtigungsgruppen (Kamera, Mikrophone, SMS, etc.) es verbirgt sich mehr dahinter, schauen Sie nach
+•Automatisches Updateungewollte Funktionen könnten hinzugefügt werden entzogene Berechtigungen werden wieder hergestellt
+akıllı telefon
+•Yetki grupları (kamera, mikrofon, SMS vb.) arkasında daha fazlası var, araştırın
+•Otomatik güncelleme, istenmeyen işlevler eklenebilir, iptal edilen izinler geri yüklenir
+
+Passwort
+•123456, 123456789, 12345678, 1234567, password, 111111, 1234567890, 123123, 000000, abc123 (2019)
+•Wie ist es besser?
+•Richtlinien!
+şifre
+•123456, 123456789, 12345678, 1234567, şifre, 111111, 1234567890, 123123, 000000, abc123 (2019)
+•Nasıl daha iyi?
+• Politikalar!
+
+Bequemlichkeit & WLAN
+•Nicht immer die beste Wahl
+•Angriffsszenarien z.B. evil twin
+Kolaylık ve WiFi
+• Her zaman en iyi seçim değil
+• Saldırı Senaryosu örnegin kötü ikiz
+
+Illusion Anonymität
+•ISP weiß mehr als man glauben mag
+•Deanonymisierenfunktioniert leichter als man vermutet
+•Anonymisieren
+•Pseudonymisieren
+•KI’s denken schneller als man sich vorstellen kann
+anonimlik yanılsaması
+•ISP düşündüğünüzden daha fazlasını biliyor
+• Adsızlaştırma, düşündüğünüzden daha kolay çalışır
+• Anonimleştir
+• Takma ad yap
+•Yapay zeka hayal edebileceğinizden daha hızlı düşünür
+
+Das alles und noch viel mehr führt zu dem Fazit,
+Menschen sind leichter zu hacken als Maschinen
+Bütün bunlar ve çok daha fazlası şu sonuca götürür:
+İnsanları hacklemek makinelerden daha kolaydır
+
+04 Spyware, Phishing, Browser Highjacking
+04 Casus yazılım, kimlik avı, tarayıcı kaçırma
+
+•Der Mensch als Ziel, der Mensch als Schwachpunkt. Wissen ist Macht und je mehr ich über einen Menschen weiß, desto höher ist die Wahrscheinlichkeit, dass er durch mich manipulierbar ist. 
+•Zahlreiche Schadsoftware unterstützt bei der Informationsbeschaffung. Sowohl bei Massenangriffen, als auch bei gezielten Angriffen.
+• Hedef olarak insan, zayıf nokta olarak insan. Bilgi güçtür ve bir insan hakkında ne kadar çok şey bilirsem, onu manipüle etme olasılığım o kadar yüksek olur.
+• Çok sayıda kötü amaçlı yazılım, bilgi toplamayı destekler. Hem toplu saldırılarda hem de hedefli saldırılarda.
+
+Spyware
+•Spyware sind Programme, die darauf spezialisiert sind Informationen über den PC-Nutzer auszuspionieren.
+•Persönliche Daten, Surfgewohnheiten, Vorlieben und Zugangsdaten sind einige Beispiele der Informationen, auf die es Spyware abgesehen hat.
+casus yazılım
+•Casus yazılımlar, bilgisayar kullanıcısı hakkındaki bilgileri casusluk etme konusunda uzmanlaşmış programlardır.
+•Kişisel veriler, gezinme alışkanlıkları, tercihler ve oturum açma kimlik bilgileri, casus yazılımın hedeflediği bilgilere bazı örneklerdir.
+
+Phishing
+•Mails, mit denen Cyber-Kriminelle nach Passwörtern und anderen persönlichen Informationen „fischen“.
+•Häufig werden solche Mails wie die Mails von Geldinstituten, Paypal, Amazon oder ähnliches gestaltet um die Opfer zu täuschen. Empfänger werden aufgefordert ihre Zugangsdaten einzugeben (Beispiel)
+e-dolandırıcılık
+• Siber suçluların parola ve diğer kişisel bilgileri "avlamak" için kullandığı postalar.
+• Finans kurumları, Paypal, Amazon veya benzerlerinden gelen e-postalar gibi e-postalar genellikle mağdurları aldatmak için tasarlanmıştır. Alıcılardan erişim verilerini girmeleri istenir (örnek)
+
+Keylogger
+•Ein Keyloggerdient dazu, Tastatureingaben eines Nutzers aufzuzeichnen.
+•Kriminelle benutzen Keylogger, um persönliche Daten wie Passwörter direkt "von den Fingern" des Anwenders abzugreifen.
+tuş kaydediciler
+•Bir kullanıcının tuş vuruşlarını kaydetmek için bir tuş kaydedici kullanılır.
+•Suçlular, kullanıcının "parmaklarından" şifreler gibi kişisel verileri almak için tuş kaydedicileri kullanır.
+
+Browser-Hijacker 
+•Browser-Hijacker sind kleine Programme, welche die Einstellungen des Browsers manipulieren, um Seitenaufrufe (etwa die Startseite) und Suchanfragen auf bestimmte Webseiten umzuleiten. Beispielsweise auf Phishingseiten.
+tarayıcı korsanı
+• Tarayıcı korsanları, sayfa görünümlerini (ana sayfa gibi) ve arama sorgularını belirli web sitelerine yönlendirmek için tarayıcı ayarlarını değiştiren küçük programlardır. Örneğin, kimlik avı sitelerinde.
+
+
+
+
+05 Schadsoftware
+
+•Viren
+•Würmer
+•Trojaner
+•PUA
+•Adware
+Kötü Amaçlı Yazılım
+
+• Virüsler
+• solucanlar
+• Truva atları
+• PUA
+• Reklam yazılımı
+
+Viren
+•Ein Computervirus verbreitet sich von PC zu PC
+•Er befällt Dateien oder Datenträger mit seinem Programmcode
+•Ein Virus wird nur durch die „Hilfe“ eines Users (und Trigger) aktiv
+virüsler
+•Bir bilgisayar virüsü PC'den PC'ye yayılır
+•Program koduyla dosyalara veya veri taşıyıcılarına bulaşır.
+• Bir virüs ancak bir kullanıcının (ve tetikleyicinin) "yardımıyla" aktif hale gelir.
+
+•Datei-oder Link-Viren
+•Sie befallen ausführbare Programmdateien (z.B. .exe)
+•Fast alle Bestandteile von Windows und installierter Software sind davon betroffen
+•Sie schreiben ihre Codes in die jeweiligen Dateien
+•Wird die Anwendung gestartet, wird der Virus gegebenenfalls mit ausgeführt
+
+• Dosya veya bağlantı virüsleri
+• Yürütülebilir program dosyalarına saldırırlar (örn. .exe)
+• Hemen hemen tüm Windows bileşenleri ve yüklü yazılımlar etkilenir
+•Kodlarını ilgili dosyalara yazarlar.
+•Uygulama başlatıldığında virüs de çalıştırılabilir.
+
+•Makro-Viren
+•Sie verstecken sich nicht in Anwendungen, sondern in Word-und Excel-Dokumenten.
+•Beim Laden eines verseuchten Dokuments beginnt das Virus mit seiner Schadensroutine.
+•Diese können ein einfacher Scherz sein, aber auch ein schweren Schaden anrichten
+•Makro Virüsler
+•Uygulamalarda değil, Word ve Excel belgelerinde saklanır.
+• Virüs bulaşmış bir belgeyi yüklerken, virüs hasar rutinine başlar.
+•Bunlar basit bir şaka olabilir, ancak ciddi hasara da yol açabilirler.
+
+Würmer
+•Sie sind in der Lage sich selbständig innerhalb eines Netzwerks zu verbreiten, ohne Dateien direkt zu befallen und in der Regel ohne benötigten Nutzerzugriff.
+•Oftmals als Mailanhang, einmal freigelassen vermehren sie sich im Netz, unter Umständen endlos und legt so Netzte lahm.
+•Sie sind häufig auch mit Viren oder Trojanern im Gepäck unterwegs.
+solucanlar
+•Dosyaları doğrudan etkilemeden ve genellikle kullanıcı erişimi gerektirmeden bir ağ içinde bağımsız olarak yayılabilirler.
+•Genellikle bir posta eki olarak, bir kez serbest bırakıldıklarında ağda çoğalırlar, muhtemelen sonsuz bir şekilde ağları felç ederler.
+•Sıklıkla virüs veya truva atlarıyla seyahat ediyorsunuz.
+
+Trojaner
+•Als Trojaner oder Trojanisches Pferd, werden scheinbar harmlose Programme bezeichnet, die weitere Schadsoftware versteckt mit sich führen, um diese auf den PC zu schleusen.
+•Eine sehr gefährliche Form ist der Backdoor-Trojaner (RAT = Remote Access Trojaner), dieser führt Hilfsprogramme mit sich, die nach Aktivierung einen Fernzugriff auf den infizierten Computer ermöglichen.
+Truva atı
+• Görünüşe göre zararsız programlar, PC'ye kaçırmak için daha fazla kötü amaçlı yazılımı gizleyen truva atları veya Truva atları olarak adlandırılır.
+•Arka kapı truva atı (RAT = Uzaktan Erişim Truva Atı) çok tehlikeli bir biçimdir ve beraberinde yardımcı programları taşır ve etkinleştirildiğinde, virüslü bilgisayara uzaktan erişime izin verir.
+
+Ransomware(ransom= Lösegeld)
+•Ebenfalls der Familie der Trojaner zuzuordnen, gehört diese Schadsoftware zu einem stark anwachsendem Bereich der Cyberkriminalität. Sie findet sowohl bei Massenangriffen (z.B. Bundestrojaner), als auch bei gezielten Angriffen Anwendung. Bei gezielten Angriffen werden idR. die gesamten Systeme durch eine solche Schadsoftware verschlüsselt. Häufig wissen die Angreifer durch umfangreiche Recherche sehr genau, wie kostenintensiv eine Wiederherstellung der Systeme durch Backups ist und bieten entsprechende Schlüssel deutlich günstiger zu kauf an.
+Fidye yazılımı (fidye = fidye)
+•Ayrıca Trojan ailesine ait olan bu kötü amaçlı yazılım, hızla büyüyen bir siber suç alanının parçasıdır. Hem toplu saldırılar (örneğin federal Truva atları) hem de hedefli saldırılar için kullanılır. Hedefli saldırılar durumunda, idR. tüm sistemler bu tür kötü amaçlı yazılımlar tarafından şifrelenir. Saldırganlar, kapsamlı araştırmalardan, sistemleri yedeklerden geri yüklemenin ve ilgili anahtarları çok daha düşük bir fiyata satışa sunmanın tam olarak ne kadar pahalı olduğunu bilirler.
+
+PUA und Adwaresind häufig eher lästig als bedrohlich
+•PUA (potentiell unerwünschte Anwendung) oder PUP (potentiell unerwünschtes Programm) stellen in der Regel keine direkte Gefahr für ein System dar. Eines der bekanntesten Beispiele ist eine Toolbar, die sich direkt mit einer heruntergeladenen Anwendung installiert.
+•Nichts desto trotz verbergen sich hinter solchen Anwendungen fleißige Datensammler und eine umgehende Deinstallation sollte erfolgen
+PUA'lar ve reklam yazılımları genellikle bir tehditten çok sıkıntı yaratır
+•PUA (Potansiyel Olarak İstenmeyen Uygulama) veya PUP (Potansiyel Olarak İstenmeyen Program) genellikle bir sistem için doğrudan bir tehdit oluşturmaz.En iyi bilinen örneklerden biri, indirilen bir uygulama ile kendini doğrudan yükleyen bir araç çubuğudur.
+• Bununla birlikte, gayretli veri toplayıcılar bu tür uygulamaların arkasına saklanır ve derhal bir kurulum kaldırılmalıdır.
+
+•Adwareist den meisten bekannt durch die Nutzung „kostenloser“ Apps.
+•Zusätzlich zur eigentlichen Anwendung wird Werbung angezeigt oder ein zusätzliches Programm installiert welches Werbung anzeigt.
+•Häufig ist die „kostenlose“ Software nur mit der entsprechenden Adwarenutzbar.
+•Erwirbt man eine Lizenz für die Anwendung, wird die Adwaredeinstalliert.
+•Es hat halt alles seinen Preis . . .
+•Adware, çoğu kişi tarafından "ücretsiz" uygulamaların kullanımıyla bilinir.
+•Gerçek uygulamaya ek olarak reklam gösterilir veya reklam gösteren ek bir program kurulur.
+• Sıklıkla, "ücretsiz" yazılım yalnızca ilgili reklam yazılımıyla birlikte kullanılabilir.
+•Uygulama için bir lisans satın almak, reklam yazılımını kaldıracaktır.
+•Her şeyin bir bedeli vardır. . .
+
+06 Sicherheitssoftware
+06 güvenlik yazılımı
+
+Cybersecurity–Software 
+•Schon lange weit mehr als „nur“ Antivirus . . .
+•Anti Virus, Anti Malware, Anti . . . weicht KI gestützter Endpointsecurity
+•Zukunftsweisend sind jedoch Ansätze, die noch weit darüber hinaus gehen
+•Sicherheitskonzepte alleine auf der Ebene von Geräten oder Anwendungen haben ausgedient und werden zukünftig lediglich Bestandteil eines ISMS sein
+Siber Güvenlik Yazılımı
+• Uzun bir süre için "sadece" antivirüsten çok daha fazlası. . .
+•Anti Virüs, Anti Malware, Anti . . . AI destekli uç nokta güvenliğine yol açar
+• Ancak ileriye dönük yaklaşımlar, bunun çok ötesine geçen yaklaşımlardır.
+•Güvenlik kavramları tek başına cihazlar veya uygulamalar düzeyinde eski günlerini yaşadılar ve gelecekte yalnızca bir BGYS'nin parçası olacaklar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 Antivirenprogramme
+Antivirenprogramme waren gestern !
+•Überwachung von Sicherheitsstatus und Bedrohungen Firewall und Sicherheitssoftware auf den Hosts arbeiten zusammen und tauschen kontinuierlich Sicherheitsinformationen aus. So kennen Sie immer den Sicherheitsstatus Ihres Netzwerks und werden im Falle aktiver Bedrohungen sofort benachrichtigt
+•Automatische Isolierung von Bedrohungen Wird eine Bedrohung entdeckt, ergreifen beide gemeinsam automatische Reaktionsmaßnahmen mit dynamischen Firewall-Regeln und Lateral Movement Protection. Kompromittierte Hosts werden isoliert, um eine Ausbreitung, Hacker-Kommunikation und Datenverluste zu verhindern.
+6 antivirüs programı
+Antivirüs programları dündü!
+•Güvenlik durumu ve tehditlerin izlenmesi Ana bilgisayarlarda bulunan Firewall ve güvenlik yazılımı birlikte çalışır ve sürekli olarak güvenlik bilgisi alışverişinde bulunur. Ağınızın güvenlik durumunu her zaman bilirsiniz ve aktif tehditler durumunda anında bilgilendirilirsiniz.
+•Otomatik Tehdit İzolasyonu Bir tehdit algılandığında, ikisi dinamik güvenlik duvarı kuralları ve yanal hareket koruması ile birlikte otomatik yanıt eylemi gerçekleştirir. Güvenliği ihlal edilmiş ana bilgisayarlar, çoğalmayı, korsan iletişimini ve veri kaybını önlemek için izole edilir.
+
+Sicherheitssoftware
+•Deep learningKI aus der Security nicht mehr wegzudenken
+•Anwendungsanalyse
+•Punktgenaue Isolation von Bedrohungen 
+•Nicht betroffene Teile des Netzwerks bleiben arbeitsfähig
+•Hochkomplexe Kombinationen und Kooperationen
+güvenlik yazılımı
+• Derin öğrenme olmadan güvenliği hayal etmek zorKI
+• Uygulama analizi
+•Tehdit izolasyonunu sabitleyin
+• Ağın etkilenmeyen kısımları çalışır durumda kalır
+• Son derece karmaşık kombinasyonlar ve işbirlikleri
+
+•Techniken von Virenscannern:
+•Reaktiv: Bei dieser Art der Erkennung wird ein Schädling erst erkannt, wenn eine entsprechende Signatur (oder bekannter Hash-Wert in der Cloud) seitens des Herstellers der Antivirensoftware zur Verfügung gestellt wurde. 
+•Vorteil: Eine Signatur kann innerhalb kurzer Zeit erstellt werden und bildet daher immer noch das Rückgrat eines jeden Scanners (bei Onlineverbindungen zusätzlich Cloud-basierte Erkennung)
+•Nachteil: Ohne aktualisierte Signaturen werden keine neuen Schadprogramme erkannt.
+• Virüs tarayıcılarının teknikleri:
+•Reaktif: Bu tür algılamayla, kötü amaçlı yazılım yalnızca virüsten koruma yazılımının üreticisi tarafından ilgili bir imza (veya bulutta bilinen karma değer) sağlandığında algılanır.
+•Avantaj: Kısa sürede bir imza oluşturulabilir ve bu nedenle her tarayıcının omurgasını oluşturmaya devam eder (çevrimiçi bağlantılar olması durumunda, ek bulut tabanlı algılama)
+•Dezavantaj: Güncellenmiş imzalar olmadan hiçbir yeni kötü amaçlı yazılım algılanmayacaktır.
+
+•Proaktiv: Dies bezeichnet die Erkennung von Malware, ohne dass eine entsprechende Signatur zur Verfügung steht. Aufgrund der rapiden Zunahme neuer Schadprogramme werden solche Techniken immer wichtiger. Proaktive Verfahren sind etwa die Heuristik, Verhaltensanalyse oder die SandBox-Techniken.
+•Vorteil: Erkennung noch unbekannter Schadprogramme.
+•Nachteil: Die komplexe Technik bedarf hoher Entwicklungskosten und langer Entwicklungszyklen. Proaktive Techniken haben Prinzip bedingt gegenüber reaktiven eine höhere Fehlalarmquote. Aber besser einmal zu viel, als einmal zu wenig.
+
+•Proaktif: Bu, uygun bir imza olmadan kötü amaçlı yazılımın algılanması anlamına gelir. Yeni kötü amaçlı programlardaki hızlı artış nedeniyle, bu tür teknikler giderek daha önemli hale geliyor. Proaktif yöntemler, örneğin buluşsal yöntemler, davranış analizi veya sanal alan teknikleridir.
+•Avantaj: Bilinmeyen kötü amaçlı programların tespiti.
+•Dezavantaj: Karmaşık teknoloji, yüksek geliştirme maliyetleri ve uzun geliştirme döngüleri gerektirir. Prensipte, proaktif teknikler, reaktif olanlardan daha yüksek yanlış alarm oranına sahiptir. Ama çok azdan çok daha iyidir.
+
