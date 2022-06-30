@@ -1,0 +1,237 @@
+ISDS_Tag_07_IDS_IPS_Firewall
+
+1.Intrusion Detection System
+2.Intrusion Prevention System
+3.Honeypot
+4.Firewall
+5.Sandbox
+
+1. Saldırı tespit sistemi
+2. İzinsiz Giriş Önleme Sistemi
+3. Bal küpü
+4. Güvenlik Duvarı
+5. Sandbox
+
+1 Intrusion Detection System
+1 saldırı tespit sistemi
+
+•Ein Intrusion-Detection-System (lDS) ist, ein System zur Erkennung eines Einbruchs/Eindringens in das Datenverarbeitungssystem.
+•Zur Erkennung werden der Netzwerkverkehr (network-oriented) oder die Zugriffe auf einem Server (host-oriented) beobachtet und mit gespeicherten Angriffsmustern (misuse detection) oder gespeicherten Benutzerverhaltensmuster (anomaly detection) verglichen.
+• İzinsiz giriş tespit sistemi (IDS), veri işleme sistemine izinsiz girişi/izinsiz girişi tespit etmeye yönelik bir sistemdir.
+• Tespit için, ağ trafiği (ağ odaklı) veya bir sunucuya erişim (ana bilgisayar odaklı) gözlenir ve saklanan saldırı kalıpları (kötüye kullanım tespiti) veya saklanan kullanıcı davranış kalıpları (anormallik tespiti) ile karşılaştırılır.
+
+•Bei Erkennung eines Angriffes wird eine Aktion ausgeführt, wie z.B. ein Alarm ausgelöst.
+•Ziel des IDS ist die Erkennung von Angriffen und die Einschränkung von Angriffsmöglichkeiten
+•Es können nicht alle Angriffe erkannt werden.
+•Die Analyse und Bewertung von Angriffen erfordert einen hohen personellen Aufwand 
+•Bir saldırı algılanırsa, alarmın tetiklenmesi gibi bir işlem yapılır.
+•IDS'nin amacı, saldırıları tespit etmek ve saldırı olasılıklarını sınırlamaktır.
+•Tüm saldırılar tespit edilemez.
+• Saldırıların analizi ve değerlendirilmesi yüksek düzeyde personel çabası gerektirir
+
+•Platzierung eines IDS erfolgt in Abhängigkeit vom Einsatzzweck
+•Vor der Firewall und dem zu schützenden Netz 
+•Das IDS sieht, sofern bekannt, sämtliche Angriffe von außen.
+• Bir IDS'nin yerleştirilmesi, kullanım amacına bağlıdır
+• Güvenlik duvarı ve korunacak ağın önünde
+•Biliniyorsa, IDS dışarıdan gelen tüm saldırıları görür.
+ 
+
+•Platzierung eines IDS erfolgt in Abhängigkeit vom Einsatzzweck
+•Hinter der Firewall im geschützten Netz 
+•Das IDS für Angreifer nicht einfach erkennbar.
+•Nur erfolgreiche Angriffe werden registriert
+•Sicherheitsverletzungen von innen können erkannt werden.
+• Bir IDS'nin yerleştirilmesi, kullanım amacına bağlıdır
+•Korunan ağdaki güvenlik duvarının arkasında
+• IDS, saldırganlar tarafından kolayca tanınmaz.
+•Yalnızca başarılı saldırılar kaydedilir
+•İç güvenlik ihlalleri tespit edilebilir.
+
+ 
+2 Intrusion Prevention System
+2 izinsiz giriş önleme sistemi
+
+•Ein Intrusion Prevention System (IPS), ist in der Lage, Angriffe auf Netzwerke oder Computersysteme zu erkennen und automatische Abwehrmaßnahmen zu ergreifen.
+•IPS werden wegen des hohen personellen Arbeitsaufwands bei der Analyse und Bewertung der Angriffe eingesetzt. 
+•Sie leiten programmgesteuert Sicherheitsmaßnahmen (Umkonfigurierung, Neuparametrisierung von Firewalls, Abschalten von Servern etc.).
+• İzinsiz giriş önleme sistemi (IPS), ağlara veya bilgisayar sistemlerine yapılan saldırıları tespit edebilir ve otomatik karşı önlemler alabilir.
+• IPS, yüksek personel iş yükü nedeniyle saldırıları analiz etmek ve değerlendirmek için kullanılır.
+• Güvenlik önlemlerini programlı olarak yönlendirirsiniz (yeniden yapılandırma, güvenlik duvarlarının yeniden parametrelendirilmesi, sunucuların kapatılması vb.).
+
+•Abwehrmaßnahmen eines IPS:
+•Alarmierung des Administrators
+•Trennen oder Zurücksetzen der Verbindung
+•Datenverkehr von einer Quelle oder zu einem bestimmten Ziel unterbinden
+•Automatische Rekonfiguration der Firewall, um die Verbindung zu unterbrechen 
+• Bir IPS'nin savunma önlemleri:
+• Yöneticinin uyarılması
+• Bağlantıyı kesmek veya bağlantıyı sıfırlamak
+• Bir kaynaktan veya belirli bir hedefe giden trafiği engelleme
+• Bağlantıyı kesmek için güvenlik duvarının otomatik olarak yeniden yapılandırılması
+
+•Arten eines IPS
+•Das Host-basierte IPS ist direkt auf dem zu schützenden System installiert. Es analysiert alle empfangenen und gesendeten Daten und die vom System selbst bereitgestellten Daten.
+•Netzwerk-basierte IPS überwachen direkt den Netzverkehr und sind als separates Gerät oder integriert in eine Firewall inline installiert. Sie können vor Angriffen über das Netzwerk schützen
+•Neben Intrusion Prevention Systemen, die als Standalone-Geräte konzipiert sind, existieren Firewall-Systeme, in denen die IPS Funktion direkt integriert ist. (Keine Aufwendige Kommunikation zwischen FW und IPS notwendig.)
+• IPS Türleri
+•Ana bilgisayar tabanlı IPS, korunacak sisteme doğrudan kurulur. Alınan ve gönderilen tüm verileri ve sistemin kendisi tarafından sağlanan verileri analiz eder.
+•Ağ tabanlı IPS, ağ trafiğini doğrudan izler ve ayrı bir cihaz olarak satır içi olarak kurulur veya bir güvenlik duvarına entegre edilir. Ağ üzerinden saldırılara karşı koruma sağlayabilirsiniz
+•Bağımsız cihazlar olarak tasarlanan saldırı önleme sistemlerine ek olarak, IPS işlevinin doğrudan entegre edildiği güvenlik duvarı sistemleri bulunmaktadır. (FW ve IPS arasında karmaşık iletişim gerekmez.)
+
+
+
+
+
+
+3 Honeypot
+Bal küpü (honeypot)
+
+•Als Honeypot wird in der IT ein Sicherheitsmechanismus bezeichnet, mit dem Administratoren Hacker täuschen und Cyberattacken ins Leere laufen lassen.
+•Ein Honeypot kommt in der Regel als Ergänzung zu anderen IT-Sicherheitskomponenten wie dem Intrusion-Detection-System (IDS) und Firewalls zum Einsatz.
+•Ein solcher Honigtopf simuliert Netzwerkdienste oder Anwendungs-programme, um Angreifer anzulocken und das Produktivsystem vor Schäden zu schützen.
+•Da Honeypots im Normalbetrieb keine Funktion übernehmen, stellt jede Aktivität in diesen Kontrollsystemen einen potenziellen Angriff dar.
+• BT'de bal küpü, yöneticilerin bilgisayar korsanlarını aldatmak ve siber saldırıların boşa gitmesine izin vermek için kullandığı bir güvenlik mekanizmasıdır.
+• Bir bal küpü genellikle saldırı tespit sistemi (IDS) ve güvenlik duvarları gibi diğer BT güvenlik bileşenlerine ek olarak kullanılır.
+• Böyle bir bal küpü, saldırganları çekmek ve üretim sistemini hasardan korumak için ağ hizmetlerini veya uygulama programlarını simüle eder.
+• Honeypot'ların normal operasyonda hiçbir işlevi olmadığından, bu kontrol sistemlerindeki herhangi bir aktivite potansiyel bir saldırıyı temsil eder.
+
+•Honeypots werden technologisch mit serverseitiger und clientseitiger Technologien eingerichtet.
+•Serverseitiges Honeypotting: Die Grundidee eines serverseitigen Honeypots ist es, Angreifer in isolierte Bereiche eines IT-Systems zu locken und so von kritischen Netzwerkkomponenten fernzuhalten. Darüber hinaus bieten Honeypots die Möglichkeit, das Vorgehen von Angreifern zu tracken.
+•Honeypot'lar, sunucu tarafı ve istemci tarafı teknolojileri ile teknolojik olarak kurulur.
+•Sunucu tarafı bal küpü oluşturma: Sunucu tarafı bal küpünün temel fikri, saldırganları bir BT sisteminin yalıtılmış alanlarına çekmek ve böylece onları kritik ağ bileşenlerinden uzak tutmaktır. Ayrıca bal küpleri, saldırganların eylemlerini takip etme imkanı sunar.
+
+4 Firewall
+4 Güvenlik Duvarı
+
+•Firewalls schützen Netzwerke oder einzelne Computersysteme vor unerwünschten Netzwerkverkehr
+•Jede Firewall basiert auf eine Softwarekomponente
+•Überwacht den Datenverkehr und entscheidet anhand von festgelegten Regeln
+•Eine Firewall soll nicht Angriffe erkennen, sondern Regeln für den Datenverkehr umsetzen
+•Unterscheidung zwischen Personal Firewall (Desktop Firewall) und externer Firewall (Netzwerk-oder Hardware-Firewall)
+• Güvenlik duvarları, ağları veya bireysel bilgisayar sistemlerini istenmeyen ağ trafiğinden korur
+•Her güvenlik duvarı bir yazılım bileşenine dayanır
+•Veri trafiğini izler ve tanımlanmış kurallara göre karar verir
+• Bir güvenlik duvarı saldırıları tanımamalı, ancak veri trafiği için kurallar uygulamalıdır.
+•Kişisel güvenlik duvarı (masaüstü güvenlik duvarı) ve harici güvenlik duvarı (ağ veya donanım güvenlik duvarı) arasındaki ayrım
+
+Bastion-Host
+•Ein Bastion-Host ist der Hauptkontaktpunkt, über den Clients von internen Netzwerken auf das Internet zugreifen.
+•Der Bastion-Host ist als Schutz vor Angriffen auf das interne Netzwerk und zur Kontrolle des ausgehenden Datenverkehrs konzipiert. 
+•Ein Bastion-Host wird normalerweise bei kleineren Netzwerken eingesetzt, die keine öffentlichen Server bereitstellen.
+Nöbetci Kale
+• Bir kale ana bilgisayarı, dahili ağlardan gelen istemcilerin İnternet'e eriştiği ana iletişim noktasıdır.
+•Bastion host, dahili ağ üzerindeki saldırılara karşı koruma sağlamak ve giden trafiği kontrol etmek için tasarlanmıştır.
+• Bir kale ana bilgisayarı, genellikle genel sunucular sağlamayan daha küçük ağlarda kullanılır.
+
+ 
+
+
+
+
+
+Abgeschirmtes Subnetz (ScreenedSubnet)
+•Eine Firewall mit 3 Netzwerkkarten (Triple Home Firewall).
+•Ein Server der öffentlichen Service anbietet, wird in der DMZ (demilitarisierte Zone) platziert.
+•Die DMZ ist vom internen Netzwerk und dem Internet getrennt.
+•Wenn die Firewall kompromittiert wird hatder Angreifer nicht zwangsweiseZugriff auf das Intranet
+Ekranlı Alt Ağ (ScreenedSubnet)
+• 3 ağ kartına sahip bir güvenlik duvarı (üçlü ev güvenlik duvarı).
+•DMZ'ye (Demilitarized Zone) kamu hizmeti sunan bir sunucu yerleştirildi.
+•DMZ, dahili ağdan ve İnternet'ten ayrılmıştır.
+• Güvenlik duvarının güvenliği ihlal edilmişse, saldırganın intranete erişimi olması gerekmez
+
+ 
+Doppelte Firewall (Dual Firewall)
+•Ein abgeschirmtes Netzwerk (DMZ), in dem die öffentlichen Server/Dienste zur Verfügung gestellt sind, wird zwischen zwei Firewalls platziert
+•Dadurch gibt eine zusätzliche Schutzschicht für das interne Netz
+•Sollte der Angreifer die erste Firewall überwunden haben so schützt eine weitere Firewall das Intranet
+Çift Güvenlik Duvarı (Çift Güvenlik Duvarı)
+• Genel sunucuların/hizmetlerin kullanıma sunulduğu korumalı bir ağ (DMZ), iki güvenlik duvarı arasına yerleştirilmiştir.
+•Bu, dahili ağ için ek bir koruma katmanı sağlar
+•Saldırgan ilk güvenlik duvarını geçerse, başka bir güvenlik duvarı intraneti korur
+
+
+ 
+
+Doppelte Firewall (Dual Firewall)
+ 
+Software-Firewalls
+•Eine Software-Firewall ist eine Software, die auf dem System läuft, das sie beschützt. 
+•Daher kann die Firewall auch nur den Datenverkehr zwischen Computer und verbundenen Netzwerken überwachen.
+yazılım güvenlik duvarları
+•Bir yazılım güvenlik duvarı, koruduğu sistemde çalışan bir yazılımdır.
+•Bu nedenle, güvenlik duvarı yalnızca bilgisayar ve bağlı ağlar arasındaki veri trafiğini izleyebilir.
+
+ 
+Hardware-Firewalls
+•Hardware-Firewalls sind auf einem externen System installiert und beobachten den Datenverkehr zwischen zwei Netzwerken. 
+•Daher können sie alle Verbindungen zwischen diesen Netzen überwachen. 
+•Hierbei ist der Begriff „Hardware-Firewall“ unglücklich gewählt, da es sich auch um Software handelt, die aber nicht auf dem System/den Systemen installiert ist, dass sie überwacht, sondern auf einem speziell dafür vorgesehenen Computer.
+donanım güvenlik duvarları
+• Donanım güvenlik duvarları harici bir sisteme kurulur ve iki ağ arasındaki veri trafiğini izler.
+• Böylece bu ağlar arasındaki tüm bağlantıları izleyebilirsiniz.
+• "Donanım güvenlik duvarı" terimi burada talihsizdir, çünkü bu aynı zamanda izlediği sistem(ler)e değil, bu amaç için özel olarak tasarlanmış bir bilgisayara yüklenen bir yazılımdır.
+
+ 
+Strategien
+•Firewall-Strategie: Alles sperren
+•Alles ist gesperrt. Bekannte sichere und erwünschte Vorgänge werden freigegeben.
+•Diese Variante ist sehr sicher. Allerdings erfordert sie eine aufwendige Konfiguration der Firewall.
+•Firewall-Strategie: Alles freigeben
+•Alles ist freigegeben. Bekannte unsichere und unerwünschte Vorgänge werden gesperrt.
+•Diese Variante ist relativ komfortabel aber unsicher. 
+stratejiler
+• Güvenlik duvarı stratejisi: her şeyi engelle
+•Her şey kilitli. Bilinen güvenli ve istenen işlemler etkinleştirilir.
+•Bu varyant çok güvenlidir. Ancak, güvenlik duvarının karmaşık bir yapılandırmasını gerektirir.
+• Güvenlik duvarı stratejisi: her şeyin engelini kaldırın
+•Her şey serbest bırakıldı. Bilinen güvensiz ve istenmeyen işlemler engellenir.
+•Bu varyant nispeten rahattır ancak güvensizdir.
+
+Regeln
+•Firewall Regeln werden in der Reihenfolge wie sie in der „Regeltabelle“ abgelegt sind abgearbeitet.
+•Die erste zutreffende Regel wird angewendet und alle nachfolgenden werden nicht weiter betrachtet.
+Kurallar
+•Güvenlik duvarı kuralları, "kural tablosu"nda saklandıkları sırayla işlenir.
+•İlk eşleştirme kuralı uygulanır ve sonraki tüm kurallar daha fazla dikkate alınmaz.
+
+ 
+Regeln
+•ALLOW oder PASS (Erlauben)
+•Das Paket ist erlaubt und wird durchgelassen. 
+•DENY oder DROP (Verwerfen)
+•Das Paket wird verworfen. Der Absender erhält keine Nachricht darüber, dass sein Verbindungsversuch blockiert wurde.
+•REJECT (Ablehnen)
+•Das Paket wird verworfen und dem Absender wird mitgeteilt, dass die Verbindung abgelehnt wurde. 
+•FORWARD oder PERMIT (Erlauben)
+•Die Netzwerkanfrage ist erlaubt und wird weitergeleitet, was die Möglichkeit einer Umleitung auf eine vom Administrator festgelegte Netzwerkadresse einschließt. 
+Kurallar
+•İZİN VER veya GEÇ
+•Pakete izin verilir ve geçmesine izin verilir.
+•DENY veya DROP (At)
+•Paket atılır. Gönderen, bağlantı girişiminin engellendiğine dair bir mesaj almaz.
+• REDDET (reddetme)
+•Paket atılır ve göndericiye bağlantının reddedildiği bilgisi verilir.
+• İLERİ veya İZİN (İzin ver)
+•Yönetici tarafından belirtilen bir ağ adresine yeniden yönlendirme olasılığını içeren ağ isteğine izin verilir ve iletilir.
+
+5 Sandbox
+
+•Eine Sandbox ist ein vom System abgeschotteter Bereich, in dem sich potentiell unsichere Aktionen ausführen lassen.
+•Die Sandbox ist von den Ressourcen des Systems getrennt und stellt der auszuführenden Software eine spezielle Laufzeitumgebung zur Verfügung.
+•In diesem Bereich wird die potentiell gefährliche Datei geöffnet oder installiert. Das Verhalten der Dateien bzw. Software kann so beobachtet bzw. auf unerwünschtes Verhalten überprüft werden.
+•Ziel des Einsatzes ist der Schutz des IT-Systems.
+• Korumalı alan, potansiyel olarak güvenli olmayan eylemlerin gerçekleştirilebileceği sistemden yalıtılmış bir alandır.
+• Sandbox, sistem kaynaklarından ayrılır ve yazılımın özel bir runtime ortamı ile yürütülmesini sağlar.
+• Tehlikeli olabilecek dosya bu alanda açılır veya kurulur. Dosyaların veya yazılımların davranışı bu şekilde gözlemlenebilir veya istenmeyen davranışlar için kontrol edilebilir.
+• Görevin amacı BT sistemini korumaktır.
+
+•Ansätze zur Realisierung
+•OS Emulation: dabei wird in einer virtuellen Maschine ein Gast Betriebssystem installiert. Die Hardware des Host Systems kann dann optional mit den Gast Systemen geteilt werden, beispielsweise Zugriff auf USB Sticks oder die Freigabe von Verzeichnissen auf der Harddisk des Hosts. 
+•Applikation Sandbox: im Gegensatz zu den virtuellen Maschinen der OS Emulation und deren generellem Ansatz, bietet eine ApplicationSandbox spezifischen Schutz für einzelne Applikationen. 
+• Uygulamaya yönelik yaklaşımlar
+• OS öykünmesi: bir sanal makineye konuk işletim sistemi kurulur. Ana sistemin donanımı daha sonra isteğe bağlı olarak, örneğin USB çubuklarına erişim veya ana bilgisayarın sabit diskindeki dizinlerin serbest bırakılması gibi konuk sistemlerle paylaşılabilir.
+• Uygulama sanal alanı: İşletim sistemi öykünmesinin sanal makinelerinin ve bunların genel yaklaşımının aksine, bir uygulama sanal alanı, bireysel uygulamalar için özel koruma sunar.
+
+
