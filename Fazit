@@ -1,0 +1,83 @@
+Datenschutz
+  1970 Hessen ilk yasayi cikardi
+  kisisel verilerin(personenbezogenen Daten) kötüye veya yasa disi kullanilmasini (missbräuchlich oder rechtswidriger verarbeitung) önleme
+  
+  EU-DSGVO: Europaische Datenschutz-Grundverordnung
+  GDPR: General Data Protection Regulation = Genel veri koruma yönetmeligi
+  
+  25 Mayis 2018 den itibaren bu yasa baglayicidir.
+  
+  Temel koruma hedefleri:
+    Gizlilik
+      Vertraulichkeit-Confidentiality
+      Kimse yetkisiz bilgi almamali
+    Bütünlük
+      Integrität-Integrity
+      verileri izinsiz ve fark edilmeden degitirmek mümkün olmamali
+    Ulasilabilirlik
+      Verfügbarkeit-Availibity
+      veriler yedekli hatasiz ve kurtarilabilir olmali
+      
+  Schwachstellen: Güvenlik aciklari
+  
+  ISO/IEC 27000 :Ulusllararasi veri güvenligi standartizasyonu
+  ISO 27701 :veri koruma unsurlarinin da eklenmis hali
+  ISIS12 :Orta ölcekli sirketler icin bilgi güvenligi ölcütleri
+  ----------------------------------------------------------------
+  Angriffverfahren- Saldiri cesitleri
+  
+    Massenangriff- toplu saldiri
+      Belirli bir hedef yok 
+    Gezielter Angriff- hedefli saldiri
+      Belirli bir kurban var
+----------------------------------------------      
+Spyware- Casus yazilim
+  kisisel veriler, oturum acma- kimlik bilgileri, gezinme aliskanliklari , tercihler vs
+  
+Phishing- kimlik avi- e-dolandiricilik
+  parola ve diger kisisel bilgileri avlama amacli
+  eposta üzerinden
+  banka paypal amazon vs gibi e postalar olabilir.
+  
+Keylogger - tus kaydedici
+  kullanicinin parmaklarinin hangi tuslara bastigini sirasiyla kaydeder. 
+  özellikle sifreler hedeftedir
+  
+Browser-Hojacker- tarayici korsanligi
+  Gercek web sitesiymis gibi olusturulmus sahte site
+  bu sitelere yönlendirmek icin tarayici ayarlarini degistiren kücük programlar
+  ----------------------------------------------------
+Schadsoftware  - Kötü amacli yazilim
+
+  viren -virüsler
+    bir bilgisayardan baska bir bilgisayara bulasir
+    program koduyla dosyalara veya veri tasiyicilarina bulasir
+    Sadece kullanici yardimiyla aktif hale gelir
+    
+    Datei oder link-viren - dosya veya link virüsleri
+      .exe uzantili yürütülebilir program dosyalarina saldirirlar
+      uygulama baslatildiginda virüs de calisatitilabilir.
+      
+    Makro-Viren
+      Uygulamalarda degil, Word exel belgelerinde saklanir
+      
+Würmer- solucanlar
+  Bir ag icerisinde yayilip cogalabilirler
+  Genellikle bir posta eki olarak gelirler ve aglari felc ederler
+  cogunlukla virusler ve trajanlarla birlikte hareket ederler
+  
+Trojaner -Truva ati
+  Zararsiz görünümlü ancak icerisinde kötü amacli yazilimi gizlerler
+  
+  Backdoor-Trojaner(RAT)- Uzaktan erisilen arka kapi truva ati
+    cok tehlikeli ve beraberinde yardimci programlari tasir
+    etkinlestirildiginde  viruslu bilgisayyara uzaktasn erisim yetkisi verir.
+    
+Ransomware-fidye yazilimi
+  Trojan ailesine ait
+  Hedefli saldirilar  icin kullanilir
+  tüm sistem sifrelenir vefidye ödenerek eski haline gelebilir.
+  
+PAU
+
+  
