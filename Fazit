@@ -78,6 +78,25 @@ Ransomware-fidye yazilimi
   Hedefli saldirilar  icin kullanilir
   tüm sistem sifrelenir vefidye ödenerek eski haline gelebilir.
   
-PAU
+PUA (Pottentiel unerwünschte Anwendung) -Potansiyel istenmeyen uygulama
+  indirilen bir uygulama ile kendini dogrudan yükleyen bir arac cubugu
+  derhal kurulum kaldirilmalidir cünkü arkasinda kuvvetli veri topplayicilar vardir.
+  
+Adware
+  Ucretsiz reklam iceren uygulamalardir.
+  lisans satin almak reklamlari kaldiracaktir.
+  ------------------------------------------------------
+Exploit
+  Donanim ve yazilim birlesenlerindeki bir güvenlik acigi araciligiyla istenmeyen komutlari ve islevleri yürütmek icin 
+  kullanilabilecek bir yontem veya program kodudur.
+  bir program coktükten sonra kullanici haklari genisletilmesi veya rastgele program kodlarinin calismasi
+  
+  Exploit -Kit : siber saldiri aracidir
+    Mesru web sitesine yerlestirilir.
+    
+Rootkit 
+  bir sisteme girdikten sonra gizlice hareket edip (root gibi) casusluk yapan yazilimdir
+  
+Brute Force  
 
   
