@@ -265,12 +265,23 @@ Bastion-Host - Nöbetci Kale
   olusturmak için oluşturulmuş bir makinedir.
   dahili ağ üzerindeki saldırılara karşı koruma sağlamak ve giden trafiği kontrol etmek için tasarlanmıştır.
   
+Abgeschirmtes Subnetz (Screened Subnet)  
+  Çift taraflı geçit ile perdelenmiş host tipi güvenlik duvarının birleşimidir.
+  Bu yapıda perdelenmiş bir alt ağ oluşturmak için iki perdeleyici yönlendirici kullanılır. 
+  Bunların arasında kalan alana perdelenmiş alt ağ veya askerden arındırılmış bölge (DMZ – Demilitarized Zone) denir.
   
-  
-  
-  
-  
-  
+Doppelte Firewall (Dual Firewall)  -cift güvenlik duvari
+  Saldırgan ilk güvenlik duvarını geçerse, başka bir güvenlik duvarı intraneti korur
+  Genel sunucuların/hizmetlerin kullanıma sunulduğu korumalı bir ağ (DMZ), iki güvenlik duvarı arasına yerleştirilmiştir.
 
+Software-Firewalls 
+  Bir işletim sistemi üzerinde yazılım temelli çalışan firewall olarak tanımlanabilir. 
+  Bu güvenlik yazılımları, bağlantı noktalarını kullanarak internet trafiğini düzenler.
+  
+Hardware-Firewalls
+  yazılımı üzerinde barındıran ve üzerindeki yazılımlar ile trafiği yönlendiren münferit cihazlardir
 
-    
+Sandbox
+  Türkçeye korumalı alan veya sanal alan olarak çevrilmektedir. Korumalı alan, kullanıcıların çalıştıkları uygulamayı, 
+  sistemi veya platformu etkilemeden programları çalıştırmasını veya dosyaları yürütmesini sağlayan yalıtılmış bir 
+  test ortamıdır.
