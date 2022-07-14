@@ -97,7 +97,148 @@ Exploit
     
 Rootkit 
   bir sisteme girdikten sonra gizlice hareket edip (root gibi) casusluk yapan yazilimdir
+  gizli dinleme(belauschen), casusluk(Auspionieren), veri calma(Datendiebstall), 
+  kurulum yapma(Installationen vornehmen), arka kapilar kurma(Hintertüren einbauen) vs
   
-Brute Force  
+Brute Force  (Kaba Kuvvet Saldırısı)
+  tanimlanmis tek bir hedef yok
+  mümkün olan en büyük zarari ver
+  sanal dünyada kullanıcı adı ve parola gibi önemli güvenlik bilgilerini çok sayıda deneme yaparak 
+  elde etmeye çalışan siber saldırı biçimini ifade etmektedir.
+  
+DoS 
+  DoS (Denial of Service) saldırıları internete bağlı bir bilgisayarın sunmuş olduğu hizmetleri aksatma ya da 
+  kaynaklarını tüketerek çalışmasını durdurmak için yapılan en popüler ve tehlikeli saldırı türlerinden biridir. 
+  Servis dışı bırakma saldırısı olarak adlandırılır.
 
+DDoS
+   DDoS (Distrubuted Denial of Service Attack)
+   Dağıtık Hizmet Engelleme şeklinde Türkçeye çevrilen bu saldırı tipinde, sunuculara yönelik anlık ve çok ciddi derecede 
+   bir yoğunluk oluşturularak kaynak tüketiminin doruk noktalara çıkarılması hedeflenir. Saldırganın birden fazla ve hatta 
+   binlerce benzersiz IP adresi kullanarak saniyede terabit boyutlarında veriyi göndermesine imkân veren bir siber saldırı türüdür. 
+   Genel itibarıyla ele geçirilmiş olan milyonlarca IP adresi, bu yapay trafikleri oluşturmak için çok daha yaygın olarak kullanılır. 
+   Siber saldırı modeli olarak dikkat çeken DDoS, hacker’lar tarafından oluşturulan botnet ağları yardımı ile yapılır. 
+   Sunucularda da ciddi açıklar verilmesini sağlayan saldırı tiplerinden biridir.
   
+DRDos
+  Distributed Reflective DoS
+  DDoS saldirilari gibi coklu bilgisayar grubu kullanilarak yapilir
+  Bu bilgisayar grubu kullanilarak kurban bilgisayara saldirilar yöneltilir ve yansitilir.
+  saldiri icin sunucu bilgisayarlar kullanilir.
+  Dogrudan hedefe degil hizmetlere istek gönderir ve farkli bir gönderici adresi sunar.
+  DNS yükseltme saldirisi da olabilir.
+
+Replay Attack (Tekrar Saldırısı)
+  Tekrar saldırıları, kötü niyetli bir aktörün gönderici ve alıcı arasındaki iletişimi engellediği ağ güvenliği saldırılarıdır. 
+  Replay Attack gerçekleştiren kişiler, bir mesajın iletimini geciktirir veya kendilerininmiş gibi iletirler. Yüksek dereceli şifreleme 
+  durumlarında bile bu saldırılar başarılı olabilir. Çünkü bilgisayar korsanlarının ihlallerinde başarılı olmaları için içerilen mesajı 
+  deşifre etmeleri gerekmemektedir.
+  Bu saldırılara bazen ortadaki adam (man in the middle -MitM) saldırıları da denir, çünkü bunlar bilgisayar korsanlarının özel ve 
+  şifreli iletişim hatlarına girmesini içerir. 
+  
+  A ve B, örneğin bir Hash kodu işleviyle iletişim kurar ve kimliklerini doğrular. Her iki taraf da hash kodunu ve ilgili 
+  hesaplamayı karşılaştırır. C süreci gizlice dinler ve süreci kaydeder. C daha sonra B ile iletişim kurar, A'yı taklit eder 
+  ve kaydı kimlik doğrulama için kullanır.
+  
+TCP/IP Hijacking: 
+  Saldırgan, kurban istemcinin IP adresini taklit eder (Spoof). Doğru Sequence ID değerini bulana dek, kurbandan geliyormuş gibi, 
+  sunucuya paketler yollar. Yanlış denemeler sırasında, kurbana, kendi başlatmamış olduğu oturumlara ait ACK paketleri döneceği için 
+  bu paketler kurban tarafından düşürülür. Sonunda, saldırgan, Sequence numarasını tutturarak, oturumu ele geçirir. 
+  Bu saldırıda, kurban ve saldırgan aynı ağda olmalıdır.  
+  
+  ------------------------------------------------------------------------------
+Sifreleme-Verschlüsselung
+    amac:
+      •Vertraulichkeit- gizlilik
+      •Integrität -bütünlük
+      •Authentizität - Orijinallik
+      •Verbindlichkeit - Sorumluluk
+      
+symmetrische Verschlüsselung-simetrik sifreleme
+  • Gönderici, alıcıya şifreli bir mesaj gönderir.
+  • BİR anahtar oluşturulur.
+  • Anahtar, gönderici ve alıcı tarafından erişilebilir olmalıdır
+  
+    Caesar Ciffre:
+      İlkel şifreleme yöntemleri denildiğinde ilk akla gelen Sezar şifrelemedir. Bu şifreleme algoritmasını M.Ö. 58 yılları civarlarında 
+      Sezar savaşta komutanlarıyla haberleşmek için kullanmıştır. Bu şifreleme yönteminde verilen metindeki her bir harf alfabetik sıraya 
+      göre 3 harf ileri kaydırılarak şifreleme işlemi yapılır.Şifreli metin çözüleceği zamanda aynı işlemin tersi uygulanır bütün harfler 
+      3 harf geri kaydırılır.  YAZI=BÇCK
+      
+    Blowfish:  (balon balığı şifrelemesi)
+      Bruce Schneier tarafından 1993 yılında tasarlanmış, çok sayıda şifreleyici ve şifreleme ürününe dahil olan; anahtarlanmış, 
+      simetrik bir blok şifreleyicidir.  Herkesin kullanımına açıktır. Kullanmak için lisans alma problemi yoktur.
+      Balonbalığı şifrelemesinde 16 adımdan oluşan feistel ağı kullanılmaktadır. Bu ağdaki mesaj boyutu 64bit ve anahtar boyutu 
+      32 ile 448 bit arasında değişkendir.
+      
+    Data Encryption Standard (DES)  -Veri Şifreleme Standardı 
+      DES, gizli anahtarlı bir şifreleme türüdür, büyük boyutlu verilerin şifrelenmesinde kullanılır. Şifreleme işlemi Blok Şifreleme 
+      olarak adlandırılan bir yöntem ile gerçekleştirilir. Bu yöntem, şifreli metin ile düz metin arasındaki ilişkiyi gizlemeyi amaçlar. 
+      1997'de resmi bilgi şifreleme standardı olarak kabul edilirken, 2000'de yerini AES'e bırakmıştır. 
+      
+    Advanced Encryption Standard (AES)  -Gelişmiş Şifreleme Standardı 
+      Elektronik verinin şifrelenmesi için sunulan bir standarttır. Amerika tarafından kabul edilen AES, uluslararası alanda da 
+      defacto şifreleme (kripto) standardı olarak kullanılmaktadır. En yaygin örnegi Whatsapp tir
+      
+asymmetrische Verschlüsselung- asimetrik sifreleme
+  • Gönderici, alıcıya şifreli bir mesaj gönderir.
+    •Alıcı bir anahtar çifti oluşturur.
+    •Anahtar Çifti matematiksel olarak ilişkilidir
+    •Bir algoritma tarafından üretilir
+    •Alıcı, genel anahtarını gönderene iletir.
+    •Gönderici, mesajı alıcının genel anahtarıyla şifreler ve aliciya gönderir.
+    •Alıcı, gizli anahtarıyla mesajın şifresini çözer.
+        •genel anahtar-public key-  Gönderenin mesajını şifreler -verschlüsseln
+        •gizli anahtar-secret key -  Gönderenin şifreli mesajının şifresini çözer - entschlüsseln
+        
+      RSA  
+         Bu kriptoloji algoritmasını 1977 yılında Ron Rives, Adi Shamir ve Leonard Aldeman geliştirmiş ve soy isimlerinin baş harflerini 
+         algoritma adı olarak kullanmışlardır
+         iki büyük asal sayının çarpımı üretilir ve seçilen diğer bir değerle birlikte ortak anahtar (Public Key) ilan edilir. 
+         Güvenirlik derecesi, şifrelemede kullanılan asal sayıların büyüklüğü ile doğru orantılıdır. 
+         Özellikle çok kullanıcısı olan sistemlerde güvenli veri paylaşımına ve sayısal imza ile kimlik doğrulaması (authentication) 
+         yapılmasına olanak sağlamaktadır. RSA algoritması anahtar üretimi, şifreleme ve şifre çözme olmak üzere 3 basamaktan oluşmaktadır.
+ 
+      Merkle-Hellmann
+        1978 yılında Martin Hellman ve Ralph Merkle tarafından geliştirilen ilk açık anahtarlı kriptosistemlerden biridir
+        RSA'dan farklı olarak, tek yönlüdür -Açık Anahtar sadece şifreleme, ve Gizli Anahtar sadece deşifreleme için kullanılır. 
+        Böylece bu yöntem Dijital imzalama tarafından kimlik kanıtlama için kullanılamaz.
+        Greedy algoritması ile beklenen zamanda ve kolayca çözülebilir. 
+        
+      Benaloh
+        bir Homomorfik şifreleme türüdür, kullanıcıların şifrelenmiş verileri üzerinde önce şifresini çözmeden hesaplamalar yapmasına izin veren 
+        bir şifreleme şeklidir . Elde edilen bu hesaplamalar, şifresi çözüldüğünde, işlemlerin şifrelenmemiş veriler üzerinde 
+        gerçekleştirilmesiyle elde edilenle aynı çıktıyla sonuçlanan şifreli bir biçimde bırakılır. Homomorfik şifreleme, gizliliği 
+        koruyan dış kaynaklı depolama ve hesaplama için kullanılabilir . 
+        
+        
+ Hybride Verschlüsselung -karma sifreleme
+    Simetrik ve asimetrik şifrelemenin avantajlarını birleştirir
+    Ortak anahtar asimetrik olarak iletilir, geri kalanı simetrik olarak iletilir    
+    
+ ------------------------------------------------------------------
+ 
+ Standards von Verschlüsselungsprotokollen -Sifreleme protokllerinin sitandartlari:
+    •Transport Layer Security (TLS, früher Secure Sockets Layer, SSL)
+    •WPA3 und WPA2
+    •Secure Shell (SSH)
+    •IPsec
+    
+Schlüsselaustauschprotokoll - anahtar değişim protokolü:
+  •Merkles Puzzle
+  •Diffie-Hellmann-Schlüsseltausch
+  •Needham-Schroeder-Protokoll
+  
+  ----------------------------------------------------------------------
+
+Intrusion-Detection-System (lDS) : İzinsiz giriş tespit sistemi 
+  amacı, saldırıları tespit etmek ve saldırı olasılıklarını sınırlamaktır.
+  Bir IDS'nin yerleştirilmesi, kullanım amacına bağlıdır
+  •IDS, saldırganlar tarafından kolayca tanınmaz.
+  •Yalnızca başarılı saldırılar kaydedilir
+  •İç güvenlik ihlalleri tespit edilebilir.
+
+Intrusion Prevention System(IPS) : İzinsiz giriş önleme sistemi 
+  ağlara veya bilgisayar sistemlerine yapılan saldırıları tespit edebilir ve otomatik karşı önlemler alabilir.
+  
+    
