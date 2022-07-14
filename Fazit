@@ -240,5 +240,37 @@ Intrusion-Detection-System (lDS) : İzinsiz giriş tespit sistemi
 
 Intrusion Prevention System(IPS) : İzinsiz giriş önleme sistemi 
   ağlara veya bilgisayar sistemlerine yapılan saldırıları tespit edebilir ve otomatik karşı önlemler alabilir.
+  Bir IPS'nin savunma önlemleri:
+    • Yöneticinin uyarılması
+    • Bağlantıyı kesmek veya bağlantıyı sıfırlamak
+    • Bir kaynaktan veya belirli bir hedefe giden trafiği engelleme
+    • Bağlantıyı kesmek için güvenlik duvarının otomatik olarak yeniden yapılandırılması
+    
+Honeypot - Bal küpü 
+  yöneticilerin bilgisayar korsanlarını aldatmak ve siber saldırıların boşa gitmesine izin vermek için 
+  kullandığı bir güvenlik mekanizmasıdır.
+  genellikle saldırı tespit sistemi (IDS) ve güvenlik duvarları gibi diğer BT güvenlik bileşenlerine ek olarak kullanılır.
+  saldırganları çekmek ve üretim sistemini hasardan korumak için ağ hizmetlerini veya uygulama programlarını simüle eder.
+  Sunucu tarafı bal küpünün temel fikri, saldırganları bir BT sisteminin yalıtılmış alanlarına çekmek ve 
+  böylece onları kritik ağ bileşenlerinden uzak tutmaktır. 
+  Ayrıca bal küpleri, saldırganların eylemlerini takip etme imkanı sunar.
   
+Firewall - Güvenlik Duvarı
+  ağları veya bireysel bilgisayar sistemlerini istenmeyen ağ trafiğinden korur
+  Veri trafiğini izler ve tanımlanmış kurallara göre karar verir
+  Bir güvenlik duvarı saldırıları tanımaz, ancak veri trafiği için kurallar uygular.
+
+Bastion-Host - Nöbetci Kale
+  Bastion Host güvenlik amacı ile oluşturulmuş ve sistemdeki diğer makineleri korumak, daha güvenli bir bölge 
+  olusturmak için oluşturulmuş bir makinedir.
+  dahili ağ üzerindeki saldırılara karşı koruma sağlamak ve giden trafiği kontrol etmek için tasarlanmıştır.
+  
+  
+  
+  
+  
+  
+  
+
+
     
